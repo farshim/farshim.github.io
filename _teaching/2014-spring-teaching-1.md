@@ -1,14 +1,14 @@
 ---
 title: "Teaching experience 1"
 collection: teaching
-type: "Undergraduate course"
-permalink: /teaching/2014-spring-teaching-1
-venue: "University 1, Department"
+type: "Cryptography Theory & Applications"
+permalink: /teaching/CTAP-2020-21
+venue: "University of York, Department  of Computer Science"
 date: 2014-01-01
-location: "City, Country"
+location: "York, United Kingdom"
 ---
 
-This is a description of a teaching experience. You can use markdown like any other post.
+The module looks at the major techniques, algorithms, and protocols in modern cryptography from both theoretical and practical perspectives. 
 
 Heading 1
 ======
