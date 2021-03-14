@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Pooya Farshim"
 title_separator          : "-"
 name                     : &name "Pooya Farshim"
-description              : &description "personal description"
+description              : &description "Assistant Professor"
 url                      : https://farshim.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "farshim/academicpages.github.io"
@@ -57,7 +57,7 @@ yandex_site_verification :
 
 # Social Sharing
 twitter:
-  username               : &twitter
+  username               : 
 facebook:
   username               :
   app_id                 :
@@ -82,12 +82,11 @@ analytics:
 author:
   name             : "Pooya Farshim"
   avatar           : "profile.png"
-  bio              : "Your biography for the left-hand sidebar"
-  location         : "Location"
-  employer         :
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
-  googlescholar    : "http://yourfullgooglescholarurl.com"
-  email            :
+  bio              : "Assistant Professor"
+  location         : "https://www.google.com/maps/dir//53.9465562,-1.0310718/@53.9465511,-1.0311348,21z/data=!3m1!5s0x48792fd4576b47b3:0x38043b4b89c4af3c!4m2!4m1!3e3"
+  employer         : "https://www.cs.york.ac.uk/"
+  googlescholar    : "https://scholar.google.com/citations?user=w_Pjc6MAAAAJ&hl=en"
+  email            : "pooya.farshim@gmail.com"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
@@ -96,20 +95,18 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "academicpages"
+  github           : "farshim"
   google_plus      :
   keybase          :
   instagram        :
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
   linkedin         :
-  orcid            : "http://orcid.org/yourorcidurl"
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
-  twitter          : "replacethistwitterhandle"
   vine             :
   weibo            :
   xing             :
@@ -212,7 +209,7 @@ defaults:
   # _teaching
   - scope:
       path: ""
-      type: teaching
+      type: research
     values:
       layout: single
       author_profile: true
@@ -221,7 +218,7 @@ defaults:
   # _publications
   - scope:
       path: ""
-      type: publications
+      type: teaching
     values:
       layout: single
       author_profile: true
@@ -230,7 +227,7 @@ defaults:
   # _portfolio
   - scope:
       path: ""
-      type: portfolio
+      type: service
     values:
       layout: single
       author_profile: true
@@ -239,9 +236,9 @@ defaults:
   # _talks
   - scope:
       path: ""
-      type: talks
+      type: contact
     values:
-      layout: talk
+      layout: single
       author_profile: true
       share: true
 
@@ -255,7 +252,7 @@ sass:
 permalink: /:categories/:title/
 # paginate: 5 # amount of posts to show
 # paginate_path: /page:num/
-timezone: America/Los_Angeles # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: Europe/Paris # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
 # Plugins
