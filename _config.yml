@@ -86,6 +86,7 @@ author:
   location         : "York"
   employer         : "University of York"
   googlescholar    : "https://scholar.google.com/citations?user=w_Pjc6MAAAAJ&hl=en"
+  DBLP             : "https://dblp.org/pid/64/5418.html"
   email            : "pooya.farshim@gmail.com"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
@@ -95,7 +96,7 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "farshim"
+  github           : 
   google_plus      :
   keybase          :
   instagram        :
@@ -175,10 +176,10 @@ collections:
   teaching:
     output: true
     permalink: /:collection/:path/
-  publications:
+  research:
     output: true
     permalink: /:collection/:path/
-  portfolio:
+  service:
     output: true
     permalink: /:collection/:path/
   talks:
@@ -206,7 +207,7 @@ defaults:
     values:
       layout: single
       author_profile: true
-  # _teaching
+  # _research
   - scope:
       path: ""
       type: research
@@ -215,7 +216,7 @@ defaults:
       author_profile: true
       share: true
       comments: true
-  # _publications
+  # _teaching
   - scope:
       path: ""
       type: teaching
@@ -224,7 +225,7 @@ defaults:
       author_profile: true
       share: true
       comments: true
-  # _portfolio
+  # _service
   - scope:
       path: ""
       type: service
@@ -233,7 +234,7 @@ defaults:
       author_profile: true
       share: true
       comment: true
-  # _talks
+  # _contact
   - scope:
       path: ""
       type: contact
