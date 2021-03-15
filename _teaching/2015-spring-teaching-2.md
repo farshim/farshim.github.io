@@ -8,13 +8,13 @@ date: 2015-01-01
 location: "City, Country"
 ---
 
-This is a description of a teaching experience. You can use markdown like any other post.
+Cryptography: Theory and Applications (York)
+Wider Aspects of Cyber Security (York)
+Formal Languages, Computability, and Complexity (ENS)
+Hash Functions, MACs, and Authenticated Encryption (ESGI). Lectures. 
+Gems of Cryptography (TU Darmstadt)
+Basic Provable Security of Public-Key Encryption Schemes (Minho)
+Crypto-Co summer school (Colombia). Slide 1, 2, 3.
+Foundations of Cryptography winter school (Iran). Slides 1, 2, 3, 4.
 
-Heading 1
-======
 
-Heading 2
-======
-
-Heading 3
-======
