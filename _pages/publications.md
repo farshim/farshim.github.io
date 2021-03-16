@@ -5,14 +5,18 @@ permalink: /publications/
 author_profile: true
 ---
 
-<p><span >I am interested in the rigorous development of cryptographic primitives, security models, and relationship between primitives. Recently, I have been working on idealized models of computation, such as the random-oracle or the ideal-cipher model, as well as cryptosystems with advanced functionalities, such as functional encryption, multilinear maps, and obfuscation. A list of my publications appears below; see also my <a href="http://www.informatik.uni-trier.de/~ley/db/indices/a-tree/f/Farshim:Pooya.html">DBLP</a>&nbsp;and&nbsp;<a href="http://scholar.google.com/citations?user=w_Pjc6MAAAAJ&amp;hl=en">Google Scholar</a>&nbsp;pages.</span></p>
+<p><span >I am interested in the rigorous development of cryptographic primitives, security models, and relationship between primitives. Recently, I have been working on idealized models of computation, such as the random-oracle or the ideal-cipher model, as well as cryptosystems with advanced functionalities, such as functional encryption, multilinear maps, and obfuscation. A list of my publications appears below; see also my <a href="http://www.informatik.uni-trier.de/~ley/db/indices/a-tree/f/Farshim:Pooya.html">DBLP</a> and <a href="http://scholar.google.com/citations?user=w_Pjc6MAAAAJ&amp;hl=en">Google Scholar</a> pages.</span></p>
 <p><span ><b>Publications</b></span></p>
-<p><span >[40] Pooya Farshim and Stefano Tessaro.<br>
-</span><span >Password Hashing and Preprocessing.<br>
-EUROCRYPT 2021.</span></p>
-<p><span >[39] Geoffroy Couteau, Pooya Farshim, and Mohammad Mahmoody.<br>
-</span><span ><a href="https://eprint.iacr.org/2021/016">Black-Box Uselessness: Composing Separations in Cryptography</a>.<br>
-ITCS 2021.</span></p>
+<p><span >
+	[40] Pooya Farshim and Stefano Tessaro.<br>
+	</span><span >Password Hashing and Preprocessing.<br>
+	EUROCRYPT 2021.
+</span></p>
+<p><span >
+	[39] Geoffroy Couteau, Pooya Farshim, and Mohammad Mahmoody.<br>
+	</span><span ><a href="https://eprint.iacr.org/2021/016">Black-Box Uselessness: Composing Separations in Cryptography</a>.<br>
+	ITCS 2021.
+</span></p>
 <p><span >[38] Pooya Farshim, Louiza Khati, Yannick Seurin, and Damien Vergnaud.<br>
 </span><span >The Key-Dependent Message Security of Key-Alternating Feistel Ciphers.<br>
 CT-RSA 2021.</span></p>
@@ -44,7 +48,7 @@ CRYPTO 2018.</span></p>
 </a>ToSC (FSE) 2018.</span></p>
 <p><span >[28] Pooya Farshim, Claudio Orlandi, and Razvan Rosie.</span><br>
 <span > <a href="http://tosc.iacr.org/index.php/ToSC/article/view/604/545">Security of Symmetric Primitives under Incorrect Usage of Keys.</a></span><br>
-<span >ToSC (FSE)&nbsp;2017.</span></p>
+<span >ToSC (FSE) 2017.</span></p>
 <p><span >[27] Pooya Farshim and Arno Mittelbach.</span><br>
 <span > <a href="https://eprint.iacr.org/2016/423.pdf">Modeling Random Oracles under Unpredictable Queries</a>.</span><br>
 <span >FSE 2016.</span></p>
@@ -54,9 +58,9 @@ CRYPTO 2018.</span></p>
 <p><span >[24,25] Martin R. Albrecht, Pooya Farshim, Jean-Charles Faugère, Gottfried Herold, and Ludovic Perret.</span><br>
 <span > <a href="http://eprint.iacr.org/2011/289">Polly Cracker, Revisited</a>.</span><br>
 <span >Designs, Codes and Cryptography 2016.<br>
-</span><span >ASIACRYPT 2011.&nbsp;</span></p>
+</span><span >ASIACRYPT 2011. </span></p>
 <p><span >[23] Jean Paul Degabriele, Pooya Farshim, and Bertram Poettering.</span><br>
-<span > <a href="http://eprint.iacr.org/2015/748">A More Cautious Approach&nbsp;to Security Against Mass Surveillance</a>.</span><br>
+<span > <a href="http://eprint.iacr.org/2015/748">A More Cautious Approach to Security Against Mass Surveillance</a>.</span><br>
 <span >FSE 2015.</span></p>
 <p><span >[22] Pooya Farshim and Gordon Procter.</span><br>
 <span > <a href="http://eprint.iacr.org/2014/953">The Related-Key Security of Iterated Even-Mansour Ciphers</a>.</span><br>
@@ -127,5 +131,5 @@ CRYPTO 2018.</span></p>
 <span > <a href="http://grouper.ieee.org/groups/1363/IBC/submissions/Barbosa-SK-KEM-2006-06.pdf">SK-KEM: An Identity-Based KEM</a>.</span><br>
 <span > Submission for IEEE P1363.3, 2006.</span></p>
 <p><span ><strong>Co-authors</strong></span></p>
-<p><span ><a href="http://martinralbrecht.wordpress.com">Martin R. Albrecht</a> (3), <a href="http://www.informatik.uni-trier.de/~ley/pers/hd/a/Alwen:Jo=euml=l.html">Joël Alwen</a>,&nbsp;<a href="https://wwwen.uni.lu/snt/people/afonso_delerue_arriaga">Afonso Arriaga</a>&nbsp;(2),&nbsp;<a href="http://www.cdc.informatik.tu-darmstadt.de/~baecher/">Paul Baecher</a>,&nbsp;<a href="http://www3.di.uminho.pt/~mbb/">Manuel Barbosa</a>&nbsp;(14), Balthazar Bauer, <a href="http://scholar.google.co.uk/citations?user=5RPtPhYAAAAJ&amp;hl=en">Kamel Bentahar</a>,&nbsp;<a href="http://chrisbrzuska.de">Chris Brzuska</a>&nbsp;(2), <a href="https://www.di.ens.fr/aisling.connolly/research/">Aisling Connolly</a>, <a href="http://www.geoffroycouteau.fr/">Geoffroy Couteau</a>, <a href="http://www.isg.rhul.ac.uk/~psai074/">Jean Paul Degabriele</a>, <a href="https://cs.nyu.edu/~dodis/">Yevgeniy Dodis</a>, <a href="http://www-calfor.lip6.fr/~jcf/">Jean-Charles Faugère</a>,&nbsp;<a href="http://www.fischlin.de">Marc Fischlin</a>,&nbsp;<a href="https://www.di.ens.fr/~fuchsbau/">Georg Fuchsbauer</a>&nbsp;(2),&nbsp;<a href="http://www-cs.ccny.cuny.edu/~rosario/">Rosario Gennaro</a>,&nbsp;<a href="http://www.cs.columbia.edu/~gordon/">S. Dov Gordon</a>, <a href="https://crypto.iti.kit.edu/hofheinz">Dennis Hofheinz</a> (2), <a href="http://fr.viadeo.com/fr/profile/louiza.khati">Louiza Khati</a> (2), <a href="https://www.cs.bris.ac.uk/home/cseldv/">Enrique Larraia</a>,&nbsp;<a href="https://research.technicolor.com/~BenoitLibert">Benoît Libert</a>, <a href="https://www.cs.virginia.edu/~mohammad/">Mohammad Mahmoody</a>, John Malone-Lee, <a href="http://www.cryptoplexity.informatik.tu-darmstadt.de/members/sogolmazaheri/sogolmazaheri.en.jsp">Sogol Mazaheri</a> (2), <a href="http://www.arno-mittelbach.de">Arno Mittelbach</a>&nbsp;(3), <a href="http://www.cs.au.dk/~orlandi/">Claudio Orlandi</a>,&nbsp;<a href="http://www.di.ens.fr/~passelegue/">Alain Passelègue</a>,&nbsp;<a href="http://www.isg.rhul.ac.uk/~kp/">Kenneth G. Paterson</a>&nbsp;(3),&nbsp;<a href="http://www-polsys.lip6.fr/~perret/">Ludovic Perret</a>, <a href="http://www.foc.rub.de/people/poettering.html.en">Bertram Poettering</a>,&nbsp;<a href="http://scholar.google.co.uk/citations?user=oMbi7_oAAAAJ&amp;hl=en">Gordon Procter</a>,&nbsp;<a href="http://lizquaglia.wordpress.com/‎">Elizabeth A. Quaglia</a>,&nbsp;<a href="https://www.di.ens.fr/RazvanRosie.html.en">Răzvan Roşie</a>, <a href="http://yannickseurin.free.fr/">Yannick Seurin</a>, <a href="http://www.cs.bris.ac.uk/~nigel/">Nigel P. Smart</a>,&nbsp;<a href="http://www.cs.bris.ac.uk/~stam/">Martijn Stam</a>,&nbsp;<a href="http://people.csail.mit.edu/tessaro/">Stefano Tessaro</a> (3), <a href="http://www.di.ens.fr/~vergnaud/">Damien Vergnaud</a>&nbsp;(2), <a href="http://www.cs.bris.ac.uk/~bogdan/">Bogdan Warinschi</a>,&nbsp;<a href="http://www.cs.bris.ac.uk/home/csgww/">Gaven J. Watson</a>, and&nbsp;<a href="http://web.mit.edu/dwilson/www/">David A. Wilson</a>.</span></p>
+<p><span ><a href="http://martinralbrecht.wordpress.com">Martin R. Albrecht</a> (3), <a href="http://www.informatik.uni-trier.de/~ley/pers/hd/a/Alwen:Jo=euml=l.html">Joël Alwen</a>, <a href="https://wwwen.uni.lu/snt/people/afonso_delerue_arriaga">Afonso Arriaga</a> (2), <a href="http://www.cdc.informatik.tu-darmstadt.de/~baecher/">Paul Baecher</a>, <a href="http://www3.di.uminho.pt/~mbb/">Manuel Barbosa</a> (14), Balthazar Bauer, <a href="http://scholar.google.co.uk/citations?user=5RPtPhYAAAAJ&amp;hl=en">Kamel Bentahar</a>, <a href="http://chrisbrzuska.de">Chris Brzuska</a> (2), <a href="https://www.di.ens.fr/aisling.connolly/research/">Aisling Connolly</a>, <a href="http://www.geoffroycouteau.fr/">Geoffroy Couteau</a>, <a href="http://www.isg.rhul.ac.uk/~psai074/">Jean Paul Degabriele</a>, <a href="https://cs.nyu.edu/~dodis/">Yevgeniy Dodis</a>, <a href="http://www-calfor.lip6.fr/~jcf/">Jean-Charles Faugère</a>, <a href="http://www.fischlin.de">Marc Fischlin</a>, <a href="https://www.di.ens.fr/~fuchsbau/">Georg Fuchsbauer</a> (2), <a href="http://www-cs.ccny.cuny.edu/~rosario/">Rosario Gennaro</a>, <a href="http://www.cs.columbia.edu/~gordon/">S. Dov Gordon</a>, <a href="https://crypto.iti.kit.edu/hofheinz">Dennis Hofheinz</a> (2), <a href="http://fr.viadeo.com/fr/profile/louiza.khati">Louiza Khati</a> (2), <a href="https://www.cs.bris.ac.uk/home/cseldv/">Enrique Larraia</a>, <a href="https://research.technicolor.com/~BenoitLibert">Benoît Libert</a>, <a href="https://www.cs.virginia.edu/~mohammad/">Mohammad Mahmoody</a>, John Malone-Lee, <a href="http://www.cryptoplexity.informatik.tu-darmstadt.de/members/sogolmazaheri/sogolmazaheri.en.jsp">Sogol Mazaheri</a> (2), <a href="http://www.arno-mittelbach.de">Arno Mittelbach</a> (3), <a href="http://www.cs.au.dk/~orlandi/">Claudio Orlandi</a>, <a href="http://www.di.ens.fr/~passelegue/">Alain Passelègue</a>, <a href="http://www.isg.rhul.ac.uk/~kp/">Kenneth G. Paterson</a> (3), <a href="http://www-polsys.lip6.fr/~perret/">Ludovic Perret</a>, <a href="http://www.foc.rub.de/people/poettering.html.en">Bertram Poettering</a>, <a href="http://scholar.google.co.uk/citations?user=oMbi7_oAAAAJ&amp;hl=en">Gordon Procter</a>, <a href="http://lizquaglia.wordpress.com/‎">Elizabeth A. Quaglia</a>, <a href="https://www.di.ens.fr/RazvanRosie.html.en">Răzvan Roşie</a>, <a href="http://yannickseurin.free.fr/">Yannick Seurin</a>, <a href="http://www.cs.bris.ac.uk/~nigel/">Nigel P. Smart</a>, <a href="http://www.cs.bris.ac.uk/~stam/">Martijn Stam</a>, <a href="http://people.csail.mit.edu/tessaro/">Stefano Tessaro</a> (3), <a href="http://www.di.ens.fr/~vergnaud/">Damien Vergnaud</a> (2), <a href="http://www.cs.bris.ac.uk/~bogdan/">Bogdan Warinschi</a>, <a href="http://www.cs.bris.ac.uk/home/csgww/">Gaven J. Watson</a>, and <a href="http://web.mit.edu/dwilson/www/">David A. Wilson</a>.</span></p>
 <p>.</p>
