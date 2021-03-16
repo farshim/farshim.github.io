@@ -6,27 +6,32 @@ author_profile: true
 ---
 
 <p><span >I am interested in the rigorous development of cryptographic primitives, security models, and relationship between primitives. Recently, I have been working on idealized models of computation, such as the random-oracle or the ideal-cipher model, as well as cryptosystems with advanced functionalities, such as functional encryption, multilinear maps, and obfuscation. A list of my publications appears below; see also my <a href="http://www.informatik.uni-trier.de/~ley/db/indices/a-tree/f/Farshim:Pooya.html">DBLP</a> and <a href="http://scholar.google.com/citations?user=w_Pjc6MAAAAJ&amp;hl=en">Google Scholar</a> pages.</span></p>
-<p><span ><b>Publications</b></span></p>
-<p><span >
+<p><b>Publications</b></p>
+<p>
 	[40] Pooya Farshim and Stefano Tessaro.<br>
-	</span><span >Password Hashing and Preprocessing.<br>
+	Password Hashing and Preprocessing.<br>
 	EUROCRYPT 2021.
-</span></p>
+</p>
 <p><span >
 	[39] Geoffroy Couteau, Pooya Farshim, and Mohammad Mahmoody.<br>
 	</span><span ><a href="https://eprint.iacr.org/2021/016">Black-Box Uselessness: Composing Separations in Cryptography</a>.<br>
 	ITCS 2021.
 </span></p>
-<p><span >[38] Pooya Farshim, Louiza Khati, Yannick Seurin, and Damien Vergnaud.<br>
-</span><span >The Key-Dependent Message Security of Key-Alternating Feistel Ciphers.<br>
-CT-RSA 2021.</span></p>
-<p><span >[37] Yevgeniy Dodis, Pooya Farshim, Sogol Mazaheri, and Stefano Tessaro.<br>
-<a href="https://eprint.iacr.org/2020/1199">Towards Defeating Backdoored Random Oracles: Indifferentiability with Bounded Adaptivity</a>.<br>
-TCC 2020.</span></p>
-<p><span >[35,36] Martin R. Albrecht, Pooya Farshim, Shuai Han, Dennis Hofheinz, Enrique Larraia, and Kenneth G. Paterson.</span><br>
-<a href="https://eprint.iacr.org/2015/780">Multilinear Maps from Obfuscation</a>.<br>
-<span >Journal of Cryptology 2020.<br>
-</span><span >TCC 2016-A.</span></p>
+<p><span >
+	[38] Pooya Farshim, Louiza Khati, Yannick Seurin, and Damien Vergnaud.<br>
+	</span><span >The Key-Dependent Message Security of Key-Alternating Feistel Ciphers.<br>
+	CT-RSA 2021.
+</span></p>
+<p><span >
+	[37] Yevgeniy Dodis, Pooya Farshim, Sogol Mazaheri, and Stefano Tessaro.<br>
+	<a href="https://eprint.iacr.org/2020/1199">Towards Defeating Backdoored Random Oracles: Indifferentiability with Bounded Adaptivity</a>.<br>
+	TCC 2020.
+</span></p>
+<p><span >
+	[35,36] Martin R. Albrecht, Pooya Farshim, Shuai Han, Dennis Hofheinz, Enrique Larraia, and Kenneth G. Paterson.</span><br>
+	<a href="https://eprint.iacr.org/2015/780">Multilinear Maps from Obfuscation</a>.<br>
+	<span >Journal of Cryptology 2020.<br>
+	</span><span >TCC 2016-A.</span></p>
 <p><span >[34] Pooya Farshim, Georg Fuchsbauer, and Alain Passelègue.</span><br>
 <span ><a href="https://eprint.iacr.org/2018/576">Simpler Constructions of Asymmetric Primitives from Obfuscation</a>.<br>
 INDOCRYPT 2020.</span></p>
