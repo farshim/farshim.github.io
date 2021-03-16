@@ -5,7 +5,7 @@ permalink: /publications/
 author_profile: true
 ---
 
-<p style="font-family:palatino"><span >I am interested in the rigorous development of cryptographic primitives, security models, and relationship between primitives. Recently, I have been working on idealized models of computation, such as the random-oracle or the ideal-cipher model, as well as cryptosystems with advanced functionalities, such as functional encryption, multilinear maps, and obfuscation. A list of my publications appears below; see also my <a href="http://www.informatik.uni-trier.de/~ley/db/indices/a-tree/f/Farshim:Pooya.html">DBLP</a> and <a href="http://scholar.google.com/citations?user=w_Pjc6MAAAAJ&amp;hl=en">Google Scholar</a> pages.</span></p>
+<p style="font-family:halvetica"><span >I am interested in the rigorous development of cryptographic primitives, security models, and relationship between primitives. Recently, I have been working on idealized models of computation, such as the random-oracle or the ideal-cipher model, as well as cryptosystems with advanced functionalities, such as functional encryption, multilinear maps, and obfuscation. A list of my publications appears below; see also my <a href="http://www.informatik.uni-trier.de/~ley/db/indices/a-tree/f/Farshim:Pooya.html">DBLP</a> and <a href="http://scholar.google.com/citations?user=w_Pjc6MAAAAJ&amp;hl=en">Google Scholar</a> pages.</span></p>
 <p><b>Publications</b></p>
 <p>
 	[40] Pooya Farshim and Stefano Tessaro.<br>
