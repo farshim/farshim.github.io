@@ -14,12 +14,12 @@ author_profile: true
 </p>
 <p><span >
 	[39] Geoffroy Couteau, Pooya Farshim, and Mohammad Mahmoody.<br>
-	</span><span ><a href="https://eprint.iacr.org/2021/016">Black-Box Uselessness: Composing Separations in Cryptography</a>.<br>
+	<a href="https://eprint.iacr.org/2021/016">Black-Box Uselessness: Composing Separations in Cryptography</a>.<br>
 	ITCS 2021.
 </span></p>
 <p><span >
 	[38] Pooya Farshim, Louiza Khati, Yannick Seurin, and Damien Vergnaud.<br>
-	</span><span >The Key-Dependent Message Security of Key-Alternating Feistel Ciphers.<br>
+	The Key-Dependent Message Security of Key-Alternating Feistel Ciphers.<br>
 	CT-RSA 2021.
 </span></p>
 <p><span >
@@ -31,7 +31,7 @@ author_profile: true
 	[35,36] Martin R. Albrecht, Pooya Farshim, Shuai Han, Dennis Hofheinz, Enrique Larraia, and Kenneth G. Paterson.</span><br>
 	<a href="https://eprint.iacr.org/2015/780">Multilinear Maps from Obfuscation</a>.<br>
 	<span >Journal of Cryptology 2020.<br>
-	</span><span >TCC 2016-A.</span></p>
+	TCC 2016-A.</span></p>
 <p><span >[34] Pooya Farshim, Georg Fuchsbauer, and Alain Passelègue.</span><br>
 <span ><a href="https://eprint.iacr.org/2018/576">Simpler Constructions of Asymmetric Primitives from Obfuscation</a>.<br>
 INDOCRYPT 2020.</span></p>
@@ -46,8 +46,8 @@ CRYPTO 2018.</span></p>
 <span >CRYPTO 2018.</span></p>
 <p><span >[30] Pooya Farshim, Julia Hesse, Dennis Hofheinz, and Enrique Larraia.</span><br>
 <a class="gsc_a_at" href="https://eprint.iacr.org/2018/011">Graded Encoding Schemes from Obfuscation.</a><span ><br>
-</span><span >PKC 2018.<br>
-</span><span ><br>
+PKC 2018.<br>
+<br>
 [29] Pooya Farshim, Louiza Khati, and Damien Vergnaud.</span><br>
 <span > <a class="gsc_a_at" href="https://scholar.google.co.uk/citations?view_op=view_citation&amp;hl=en&amp;user=w_Pjc6MAAAAJ&amp;cstart=20&amp;citation_for_view=w_Pjc6MAAAAJ:w1MjKQ0l0TYC">Security of Even–Mansour Ciphers under Key-Dependent Messages.<br>
 </a>ToSC (FSE) 2018.</span></p>
@@ -63,7 +63,7 @@ CRYPTO 2018.</span></p>
 <p><span >[24,25] Martin R. Albrecht, Pooya Farshim, Jean-Charles Faugère, Gottfried Herold, and Ludovic Perret.</span><br>
 <span > <a href="http://eprint.iacr.org/2011/289">Polly Cracker, Revisited</a>.</span><br>
 <span >Designs, Codes and Cryptography 2016.<br>
-</span><span >ASIACRYPT 2011. </span></p>
+ASIACRYPT 2011. </span></p>
 <p><span >[23] Jean Paul Degabriele, Pooya Farshim, and Bertram Poettering.</span><br>
 <span > <a href="http://eprint.iacr.org/2015/748">A More Cautious Approach to Security Against Mass Surveillance</a>.</span><br>
 <span >FSE 2015.</span></p>
@@ -81,7 +81,7 @@ CRYPTO 2018.</span></p>
 <span >FSE 2014.</span></p>
 <p><span >[18] Paul Baecher, Pooya Farshim, Marc Fischlin, and Martijn Stam.</span><br>
 <span > <a href="http://eprint.iacr.org/2013/350">Ideal-Cipher (Ir)reducibility for Blockcipher-Based Hash Functions</a>.</span><br>
-<span >EUROCRYPT 2013.</span><span ><br>
+<span >EUROCRYPT 2013.<br>
 </span></p>
 <p><span >[17] Pooya Farshim, Benoît Libert, Kenneth G. Paterson, and Elizabeth A. Quaglia.</span><br>
 <span > <a href="http://eprint.iacr.org/2012/673">Robust Encryption, Revisited</a>.</span><br>
