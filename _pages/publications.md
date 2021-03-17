@@ -21,7 +21,7 @@ author_profile: true
 </p>
 <p>
 	[38] Pooya Farshim, Louiza Khati, Yannick Seurin, and Damien Vergnaud.<br>
-	The Key-Dependent Message Security of Key-Alternating Feistel Ciphers.<br>
+	<a href="https://eprint.iacr.org/2021/330">The Key-Dependent Message Security of Key-Alternating Feistel Ciphers</a>.<br>
 	CT-RSA 2021.
 </p>
 <p>
@@ -57,12 +57,12 @@ author_profile: true
 </p>
 <p>
 	[30] Pooya Farshim, Julia Hesse, Dennis Hofheinz, and Enrique Larraia.<br>
-	<a class="gsc_a_at" href="https://eprint.iacr.org/2018/011">Graded Encoding Schemes from Obfuscation</a>.<br>
+	<a href="https://eprint.iacr.org/2018/011">Graded Encoding Schemes from Obfuscation</a>.<br>
 	PKC 2018.
 </p>
 <p>
 	[29] Pooya Farshim, Louiza Khati, and Damien Vergnaud.<br>
-	<a class="gsc_a_at" href="https://scholar.google.co.uk/citations?view_op=view_citation&amp;hl=en&amp;user=w_Pjc6MAAAAJ&amp;cstart=20&amp;citation_for_view=w_Pjc6MAAAAJ:w1MjKQ0l0TYC">Security of Even–Mansour Ciphers under Key-Dependent Messages</a>.<br>
+	<a href="https://eprint.iacr.org/2017/475">Security of Even–Mansour Ciphers under Key-Dependent Messages</a>.<br>
 	ToSC (FSE) 2018.
 </p>
 <p>
