@@ -5,7 +5,9 @@ permalink: /publications/
 author_profile: true
 ---
 
-<p>I am interested in the rigorous development of cryptographic primitives, security models, and relationship between primitives. Recently, I have been working on idealized models of computation, such as the random-oracle or the ideal-cipher model, as well as cryptosystems with advanced functionalities, such as functional encryption, multi-linear maps, and obfuscation. A list of my publications appears below; see also my <a href="http://www.informatik.uni-trier.de/~ley/db/indices/a-tree/f/Farshim:Pooya.html">DBLP</a> and <a href="http://scholar.google.com/citations?user=w_Pjc6MAAAAJ&amp;hl=en">Google Scholar</a> pages.</p>
+<p>
+	I am interested in the rigorous development of cryptographic primitives, security models, and relationship between primitives. Recently, I have been working on idealized models of computation, such as the random-oracle or the ideal-cipher model, as well as cryptosystems with advanced functionalities, such as functional encryption, multi-linear maps, and obfuscation. A list of my publications appears below; see also my <a href="http://www.informatik.uni-trier.de/~ley/db/indices/a-tree/f/Farshim:Pooya.html">DBLP</a> and <a href="http://scholar.google.com/citations?user=w_Pjc6MAAAAJ&amp;hl=en">Google Scholar</a> pages.
+</p>
 <p>
 	<b>Publications</b>
 </p>
@@ -196,8 +198,9 @@ author_profile: true
 </p>
 <p>
 	[02] Pooya Farshim.<br>
-	<a title="Pooya Farshim's Thesis" href="http://www.cs.bris.ac.uk/Publications/Papers/2000842.pdf">Extensions of Public-Key, Identity-Based and Certificateless Encryption Schemes</a>.<br>
-	PhD thesis, University of Bristol, 2008.</p>
+	<a href="http://www.cs.bris.ac.uk/Publications/Papers/2000842.pdf">Extensions of Public-Key, Identity-Based and Certificateless Encryption Schemes</a>.<br>
+	PhD thesis, University of Bristol, 2008.
+</p>
 <p>
 	[01] Manuel Barbosa, Liqun Chen, Zhaohui Cheng, Mark Chimley, Alexander W. Dent, Pooya Farshim, Keith Harrison, John Malone-Lee, Nigel P. Smart, and Frederik Vercauteren.<br>
 	<a href="http://grouper.ieee.org/groups/1363/IBC/submissions/Barbosa-SK-KEM-2006-06.pdf">SK-KEM: An Identity-Based KEM</a>.<br>
