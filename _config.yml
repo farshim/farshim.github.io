@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Pooya Farshim"
 title_separator          : "-"
 name                     : &name "Pooya Farshim"
-description              : &description "Associate Professor"
+description              : &description "Research Fellow"
 url                      : https://farshim.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "farshim/academicpages.github.io"
@@ -82,9 +82,9 @@ analytics:
 author:
   name             : "Pooya Farshim"
   avatar           : "profile.png"
-  bio              : "Associate Professor"
+  bio              : "Research Fellow"
   location         : 
-  employer         : "Durham University"
+  employer         : "IOHK"
   googlescholar    : "https://scholar.google.com/citations?user=w_Pjc6MAAAAJ&hl=en"
   DBLP             : "https://dblp.org/pid/64/5418.html"
   email            : "pooya.farshim@gmail.com"
@@ -102,7 +102,7 @@ author:
   instagram        :
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
-  linkedin         :
+  linkedin         : "http://linkedin.com/in/farshim"
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
