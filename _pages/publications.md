@@ -12,6 +12,11 @@ author_profile: true
 	<b>Publications</b>
 </p>
 <p>
+	[40] Balthazar Bauer, Pooya Farshim, Patrick Harasser, and Adam O'Neill.<br>
+	Beyond Uber: Instantiating Generic Groups via PGGs.<br>
+	TCC 2022.
+</p>
+<p>
 	[40] Pooya Farshim and Stefano Tessaro.<br>
 	Password Hashing and Preprocessing.<br>
 	EUROCRYPT 2021.
