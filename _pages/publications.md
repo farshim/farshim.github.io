@@ -12,7 +12,7 @@ author_profile: true
 	<b>Publications</b>
 </p>
 <p>
-	[40] Balthazar Bauer, Pooya Farshim, Patrick Harasser, and Adam O'Neill.<br>
+	[41] Balthazar Bauer, Pooya Farshim, Patrick Harasser, and Adam O'Neill.<br>
 	Beyond Uber: Instantiating Generic Groups via PGGs.<br>
 	TCC 2022.
 </p>
