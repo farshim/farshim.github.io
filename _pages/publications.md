@@ -55,10 +55,9 @@ author_profile: true
 	TCC 2020.
 </p>
 <p>
-	[36,35] Martin R. Albrecht, Pooya Farshim, Shuai Han, Dennis Hofheinz, Enrique Larraia, and Kenneth G. Paterson.<br>
+	[36, 35] Martin R. Albrecht, Pooya Farshim, Shuai Han, Dennis Hofheinz, Enrique Larraia, and Kenneth G. Paterson.<br>
 	<a href="https://eprint.iacr.org/2015/780">Multilinear Maps from Obfuscation</a>.<br>
-	Journal of Cryptology 2020.<br>
-	TCC 2016-A.
+	Journal of Cryptology 2020. TCC 2016-A.<br>
 </p>
 <p>
 	[34] Pooya Farshim, Georg Fuchsbauer, and Alain Passelègue.<br>
@@ -106,10 +105,9 @@ author_profile: true
 	INDOCRYPT 2016.
 </p>
 <p>
-	[25,24] Martin R. Albrecht, Pooya Farshim, Jean-Charles Faugère, Gottfried Herold, and Ludovic Perret.<br>
+	[25, 24] Martin R. Albrecht, Pooya Farshim, Jean-Charles Faugère, Gottfried Herold, and Ludovic Perret.<br>
 	<a href="http://eprint.iacr.org/2011/289">Polly Cracker, Revisited</a>.<br>
-	Designs, Codes and Cryptography 2016.<br>
-	ASIACRYPT 2011.
+	Designs, Codes and Cryptography 2016. ASIACRYPT 2011.<br>
 </p>
 <p>
 	[23] Jean Paul Degabriele, Pooya Farshim, and Bertram Poettering.<br>
@@ -233,7 +231,7 @@ author_profile: true
 	<strong>Co-authors</strong>
 </p>
 <p>
-	<a href="http://martinralbrecht.wordpress.com">Martin R. Albrecht</a> (3),
+	<a href="http://martinralbrecht.wordpress.com">Martin R. Albrecht</a> (5),
 	<a href="https://miguel-ambrona.github.io/">Miguel Ambrona</a>, 
 	<a href="http://www.informatik.uni-trier.de/~ley/pers/hd/a/Alwen:Jo=euml=l.html">Joël Alwen</a>, 
 	<a href="https://wwwen.uni.lu/snt/people/afonso_delerue_arriaga">Afonso Arriaga</a> (2), 
@@ -253,7 +251,7 @@ author_profile: true
 	<a href="http://www-cs.ccny.cuny.edu/~rosario/">Rosario Gennaro</a>, 
 	<a href="http://www.cs.columbia.edu/~gordon/">S. Dov Gordon</a>, 
 	<a href="https://www.cryptoplexity.informatik.tu-darmstadt.de/cryptoplexity/team_cryptoplexity/patrick_harasser_cryptoplexity/index.en.jsp">Patrick Harasser</a> (3), 
-	<a href="https://crypto.iti.kit.edu/hofheinz">Dennis Hofheinz</a> (2), 
+	<a href="https://crypto.iti.kit.edu/hofheinz">Dennis Hofheinz</a> (3), 
 	<a href="http://fr.viadeo.com/fr/profile/louiza.khati">Louiza Khati</a> (2),
 	<a href="https://homepages.inf.ed.ac.uk/mkohlwei/">Markulf Kohlweiss</a> (2), 
 	<a href="https://www.cs.bris.ac.uk/home/cseldv/">Enrique Larraia</a>, 
