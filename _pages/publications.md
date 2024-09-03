@@ -18,7 +18,7 @@ author_profile: true
 </p>
 
 <p>
-	[43] Jan Bobolz, Pooya Farshim, PMarkulf Kohlweiss, and Akira Takahashi.<br>
+	[43] Jan Bobolz, Pooya Farshim, Markulf Kohlweiss, and Akira Takahashi.<br>
 	<a href="https://eprint.iacr.org/2024/818">The Brave New World of Global Generic Groups and UC-Secure Zero-Overhead SNARKs</a>.<br>
 	TCC 2024.
 </p>
@@ -233,13 +233,15 @@ author_profile: true
 	<strong>Co-authors</strong>
 </p>
 <p>
-	<a href="http://martinralbrecht.wordpress.com">Martin R. Albrecht</a> (3), 
+	<a href="http://martinralbrecht.wordpress.com">Martin R. Albrecht</a> (3),
+	<a href="https://miguel-ambrona.github.io/">Miguel Ambrona</a>, 
 	<a href="http://www.informatik.uni-trier.de/~ley/pers/hd/a/Alwen:Jo=euml=l.html">Joël Alwen</a>, 
 	<a href="https://wwwen.uni.lu/snt/people/afonso_delerue_arriaga">Afonso Arriaga</a> (2), 
 	<a href="http://www.cdc.informatik.tu-darmstadt.de/~baecher/">Paul Baecher</a>, 
 	<a href="http://www3.di.uminho.pt/~mbb/">Manuel Barbosa</a> (14), 
-	<a href="https://www.iacr.org/cryptodb/data/author.php?authorkey=10628"> Balthazar Bauer</a>  (2), 
+	<a href="https://www.iacr.org/cryptodb/data/author.php?authorkey=10628"> Balthazar Bauer</a> (3), 
 	<a href="http://scholar.google.co.uk/citations?user=5RPtPhYAAAAJ&amp;hl=en">Kamel Bentahar</a>, 
+	<a href="https://jan-bobolz.de/">Jan Bobolz</a>, 
 	<a href="http://chrisbrzuska.de">Chris Brzuska</a> (2), 
 	<a href="https://www.di.ens.fr/aisling.connolly/research/">Aisling Connolly</a>, 
 	<a href="http://www.geoffroycouteau.fr/">Geoffroy Couteau</a>, 
@@ -250,9 +252,10 @@ author_profile: true
 	<a href="https://www.di.ens.fr/~fuchsbau/">Georg Fuchsbauer</a> (2), 
 	<a href="http://www-cs.ccny.cuny.edu/~rosario/">Rosario Gennaro</a>, 
 	<a href="http://www.cs.columbia.edu/~gordon/">S. Dov Gordon</a>, 
-	<a href="https://www.cryptoplexity.informatik.tu-darmstadt.de/cryptoplexity/team_cryptoplexity/patrick_harasser_cryptoplexity/index.en.jsp">Patrick Harasser</a>, 
+	<a href="https://www.cryptoplexity.informatik.tu-darmstadt.de/cryptoplexity/team_cryptoplexity/patrick_harasser_cryptoplexity/index.en.jsp">Patrick Harasser</a> (3), 
 	<a href="https://crypto.iti.kit.edu/hofheinz">Dennis Hofheinz</a> (2), 
-	<a href="http://fr.viadeo.com/fr/profile/louiza.khati">Louiza Khati</a> (2), 
+	<a href="http://fr.viadeo.com/fr/profile/louiza.khati">Louiza Khati</a> (2),
+	<a href="https://homepages.inf.ed.ac.uk/mkohlwei/">Markulf Kohlweiss</a> (2), 
 	<a href="https://www.cs.bris.ac.uk/home/cseldv/">Enrique Larraia</a>, 
 	<a href="https://research.technicolor.com/~BenoitLibert">Benoît Libert</a>, 
 	<a href="https://www.cs.virginia.edu/~mohammad/">Mohammad Mahmoody</a>, John Malone-Lee, 
@@ -269,6 +272,7 @@ author_profile: true
 	<a href="http://yannickseurin.free.fr/">Yannick Seurin</a>, 
 	<a href="http://www.cs.bris.ac.uk/~nigel/">Nigel P. Smart</a>, 
 	<a href="http://www.cs.bris.ac.uk/~stam/">Martijn Stam</a>, 
+	<a href="https://akiratk0355.github.io/">Akira Takahashi</a>, 
 	<a href="http://people.csail.mit.edu/tessaro/">Stefano Tessaro</a> (3), 
 	<a href="http://www.di.ens.fr/~vergnaud/">Damien Vergnaud</a> (2), 
 	<a href="http://www.cs.bris.ac.uk/~bogdan/">Bogdan Warinschi</a>, 
