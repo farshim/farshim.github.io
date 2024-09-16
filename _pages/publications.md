@@ -13,8 +13,8 @@ author_profile: true
 </p>
 <li>
 	Miguel Ambrona, Pooya Farshim, and Patrick Harasser.<br>
-	&#9; <a href="https://eprint.iacr.org/2024/">Block Ciphers in Idealized Models: Automated Proofs and New Security Results</a>.<br>
-	&#9; CCS 2024.
+	&nbsp;&nbsp;&nbsp;&nbsp; <a href="https://eprint.iacr.org/2024/">Block Ciphers in Idealized Models: Automated Proofs and New Security Results</a>.<br>
+	&nbsp;&nbsp;&nbsp;&nbsp; CCS 2024.
 </li>
 <p>
 	[43] Jan Bobolz, Pooya Farshim, Markulf Kohlweiss, and Akira Takahashi.<br>
