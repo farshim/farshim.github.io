@@ -14,205 +14,204 @@ author_profile: true
 <li>
 	Miguel Ambrona, Pooya Farshim, and Patrick Harasser.<br>
 	&nbsp;&nbsp;&nbsp;&nbsp; <a href="https://eprint.iacr.org/2024/">Block Ciphers in Idealized Models: Automated Proofs and New Security Results</a>.<br>
-	&nbsp;&nbsp;&nbsp;&nbsp; CCS 2024.<br>
-	<br>
+	&nbsp;&nbsp;&nbsp;&nbsp; CCS 2024.<br><br>
 </li>
 <li>
 	Jan Bobolz, Pooya Farshim, Markulf Kohlweiss, and Akira Takahashi.<br>
 	&nbsp;&nbsp;&nbsp;&nbsp; <a href="https://eprint.iacr.org/2024/818">The Brave New World of Global Generic Groups and UC-Secure Zero-Overhead SNARKs</a>.<br>
-	&nbsp;&nbsp;&nbsp;&nbsp; TCC 2024.<br>
+	&nbsp;&nbsp;&nbsp;&nbsp; TCC 2024<br><br>
 </li>
 <li>
 	Balthazar Bauer, Pooya Farshim, Patrick Harasser, and Markulf Kohlweiss.<br>
 	&nbsp;&nbsp;&nbsp;&nbsp; <a href="https://eprint.iacr.org/2023/1601">The Uber-Knowledge Assumption: A Bridge to the AGM</a>.<br>
-	&nbsp;&nbsp;&nbsp;&nbsp; CiC 2024.<br>
+	&nbsp;&nbsp;&nbsp;&nbsp; CiC 2024.<br><br>
 </li>
 <li>
 	Balthazar Bauer, Pooya Farshim, Patrick Harasser, and Adam O'Neill.<br>
 	&nbsp;&nbsp;&nbsp;&nbsp; <a href="https://eprint.iacr.org/2022/1502">Beyond Uber: Instantiating Generic Groups via PGGs</a>.<br>
-	&nbsp;&nbsp;&nbsp;&nbsp; TCC 2022.<br>
+	&nbsp;&nbsp;&nbsp;&nbsp; TCC 2022.<br><br>
 </li>
 <li>
 	Pooya Farshim and Stefano Tessaro.<br>
 	&nbsp;&nbsp;&nbsp;&nbsp; <a href="https://iacr.org/cryptodb/data/paper.php?pubkey=30908">Password Hashing and Preprocessing</a>.<br>
-	&nbsp;&nbsp;&nbsp;&nbsp; EUROCRYPT 2021.<br>
+	&nbsp;&nbsp;&nbsp;&nbsp; EUROCRYPT 2021.<br><br>
 </li>
 <li>
 	Geoffroy Couteau, Pooya Farshim, and Mohammad Mahmoody.<br>
 	&nbsp;&nbsp;&nbsp;&nbsp; <a href="https://eprint.iacr.org/2021/016">Black-Box Uselessness: Composing Separations in Cryptography</a>.<br>
-	&nbsp;&nbsp;&nbsp;&nbsp; ITCS 2021.<br>
+	&nbsp;&nbsp;&nbsp;&nbsp; ITCS 2021.<br><br>
 </li>
 <li>
 	Pooya Farshim, Louiza Khati, Yannick Seurin, and Damien Vergnaud.<br>
 	&nbsp;&nbsp;&nbsp;&nbsp; <a href="https://eprint.iacr.org/2021/330">The Key-Dependent Message Security of Key-Alternating Feistel Ciphers</a>.<br>
-	&nbsp;&nbsp;&nbsp;&nbsp; CT-RSA 2021.
+	&nbsp;&nbsp;&nbsp;&nbsp; CT-RSA 2021.<br><br>
 </li>
 <li>
 	[37] Yevgeniy Dodis, Pooya Farshim, Sogol Mazaheri, and Stefano Tessaro.<br>
 	&nbsp;&nbsp;&nbsp;&nbsp; <a href="https://eprint.iacr.org/2020/1199">Towards Defeating Backdoored Random Oracles: Indifferentiability with Bounded Adaptivity</a>.<br>
-	&nbsp;&nbsp;&nbsp;&nbsp; TCC 2020.
+	&nbsp;&nbsp;&nbsp;&nbsp; TCC 2020.<br><br>
 </li>
 <li>
 	Martin R. Albrecht, Pooya Farshim, Shuai Han, Dennis Hofheinz, Enrique Larraia, and Kenneth G. Paterson.<br>
 	&nbsp;&nbsp;&nbsp;&nbsp; <a href="https://eprint.iacr.org/2015/780">Multilinear Maps from Obfuscation</a>.<br>
 	&nbsp;&nbsp;&nbsp;&nbsp; Journal of Cryptology 2020.<br> 
-	&nbsp;&nbsp;&nbsp;&nbsp; TCC 2016-A.<br>
+	&nbsp;&nbsp;&nbsp;&nbsp; TCC 2016-A.<br><br>
 </li>
 <li>
 	Pooya Farshim, Georg Fuchsbauer, and Alain Passelègue.<br>
 	&nbsp;&nbsp;&nbsp;&nbsp; <a href="https://eprint.iacr.org/2018/576">Simpler Constructions of Asymmetric Primitives from Obfuscation</a>.<br>
-	&nbsp;&nbsp;&nbsp;&nbsp; INDOCRYPT 2020.
+	&nbsp;&nbsp;&nbsp;&nbsp; INDOCRYPT 2020.<br><br>
 </li>
 <li>
 	Aisling Connolly, Pooya Farshim, and Georg Fuchsbauer.<br>
 	&nbsp;&nbsp;&nbsp;&nbsp; <a href="https://eprint.iacr.org/2019/1000">Security of Symmetric Primitives against Key-Correlated Attacks</a>.<br>
-	&nbsp;&nbsp;&nbsp;&nbsp; ToSC (FSE) 2019.
+	&nbsp;&nbsp;&nbsp;&nbsp; ToSC (FSE) 2019.<br><br>
 </li>
 <li>
 	Manuel Barbosa and Pooya Farshim.<br>
 	&nbsp;&nbsp;&nbsp;&nbsp; <a href="https://eprint.iacr.org/2018/547">Indifferentiable Authenticated Encryption</a>.<br>
-	&nbsp;&nbsp;&nbsp;&nbsp; CRYPTO 2018.
+	&nbsp;&nbsp;&nbsp;&nbsp; CRYPTO 2018.<br><br>
 </li>
 <li>
 	Balthazar Bauer, Pooya Farshim, and Sogol Mazaheri.<br>
 	&nbsp;&nbsp;&nbsp;&nbsp; <a href="https://eprint.iacr.org/2018/770">Combiners for Backdoored Random Oracles</a>.<br>
-	&nbsp;&nbsp;&nbsp;&nbsp; CRYPTO 2018.
+	&nbsp;&nbsp;&nbsp;&nbsp; CRYPTO 2018.<br><br>
 </li>
 <li>
 	Pooya Farshim, Julia Hesse, Dennis Hofheinz, and Enrique Larraia.<br>
 	&nbsp;&nbsp;&nbsp;&nbsp; <a href="https://eprint.iacr.org/2018/011">Graded Encoding Schemes from Obfuscation</a>.<br>
-	&nbsp;&nbsp;&nbsp;&nbsp; PKC 2018.
+	&nbsp;&nbsp;&nbsp;&nbsp; PKC 2018.<br><br>
 </li>
 <li>
 	Pooya Farshim, Louiza Khati, and Damien Vergnaud.<br>
 	&nbsp;&nbsp;&nbsp;&nbsp; <a href="https://eprint.iacr.org/2017/475">Security of Even–Mansour Ciphers under Key-Dependent Messages</a>.<br>
-	&nbsp;&nbsp;&nbsp;&nbsp; ToSC (FSE) 2018.
+	&nbsp;&nbsp;&nbsp;&nbsp; ToSC (FSE) 2018.<br><br>
 </li>
 <li>
 	Pooya Farshim, Claudio Orlandi, and Razvan Rosie.<br>
 	&nbsp;&nbsp;&nbsp;&nbsp; <a href="http://tosc.iacr.org/index.php/ToSC/article/view/604/545">Security of Symmetric Primitives under Incorrect Usage of Keys</a>.<br>
-	&nbsp;&nbsp;&nbsp;&nbsp; ToSC (FSE) 2017.
+	&nbsp;&nbsp;&nbsp;&nbsp; ToSC (FSE) 2017.<br><br>
 </li>
 <li>
 	Pooya Farshim and Arno Mittelbach.<br>
 	&nbsp;&nbsp;&nbsp;&nbsp; <a href="https://eprint.iacr.org/2016/423.pdf">Modeling Random Oracles under Unpredictable Queries</a>.<br>
-	&nbsp;&nbsp;&nbsp;&nbsp; FSE 2016.
+	&nbsp;&nbsp;&nbsp;&nbsp; FSE 2016.<br><br>
 </li>
 <li>
 	Afonso Arriaga, Manuel Barbosa, and Pooya Farshim.<br>
 	&nbsp;&nbsp;&nbsp;&nbsp; <a href="http://eprint.iacr.org/2016/018.pdf">Private Functional Encryption: Indistinguishability-Based Definitions and Constructions from Obfuscation</a>.<br>
-	&nbsp;&nbsp;&nbsp;&nbsp; INDOCRYPT 2016.
+	&nbsp;&nbsp;&nbsp;&nbsp; INDOCRYPT 2016.<br><br>
 </li>
 <li>
 	Martin R. Albrecht, Pooya Farshim, Jean-Charles Faugère, Gottfried Herold, and Ludovic Perret.<br>
 	&nbsp;&nbsp;&nbsp;&nbsp; <a href="http://eprint.iacr.org/2011/289">Polly Cracker, Revisited</a>.<br>
 	&nbsp;&nbsp;&nbsp;&nbsp; Designs, Codes and Cryptography 2016.<br>
-	&nbsp;&nbsp;&nbsp;&nbsp; ASIACRYPT 2011.<br>
+	&nbsp;&nbsp;&nbsp;&nbsp; ASIACRYPT 2011.<br><br>
 </li>
 <li>
 	Jean Paul Degabriele, Pooya Farshim, and Bertram Poettering.<br>
 	&nbsp;&nbsp;&nbsp;&nbsp; <a href="http://eprint.iacr.org/2015/748">A More Cautious Approach to Security Against Mass Surveillance</a>.<br>
-	&nbsp;&nbsp;&nbsp;&nbsp; FSE 2015.
+	&nbsp;&nbsp;&nbsp;&nbsp; FSE 2015.<br><br>
 </li>
 <li>
 	Pooya Farshim and Gordon Procter.<br>
 	&nbsp;&nbsp;&nbsp;&nbsp; <a href="http://eprint.iacr.org/2014/953">The Related-Key Security of Iterated Even-Mansour Ciphers</a>.<br>
-	&nbsp;&nbsp;&nbsp;&nbsp; FSE 2015.
+	&nbsp;&nbsp;&nbsp;&nbsp; FSE 2015.<br><br>
 </li>
 <li>
 	Christina Brzuska, Pooya Farshim, and Arno Mittelbach.<br>
 	&nbsp;&nbsp;&nbsp;&nbsp; <a href="http://eprint.iacr.org/2014/867">Random-Oracle Uninstantiability from Indistinguishability Obfuscation</a>.<br>
-	&nbsp;&nbsp;&nbsp;&nbsp; TCC 2015.
+	&nbsp;&nbsp;&nbsp;&nbsp; TCC 2015.<br><br>
 </li>
 <li>
 	Christina Brzuska, Pooya Farshim, and Arno Mittelbach.<br>
 	&nbsp;&nbsp;&nbsp;&nbsp; <a href="http://eprint.iacr.org/2014/099">Indistinguishability Obfuscation and UCEs: The Case of Computationally Unpredictable Sources</a>.<br>
-	&nbsp;&nbsp;&nbsp;&nbsp; CRYPTO 2014.
+	&nbsp;&nbsp;&nbsp;&nbsp; CRYPTO 2014.<br><br>
 </li>
 <li>
 	Manuel Barbosa and Pooya Farshim.<br>
 	&nbsp;&nbsp;&nbsp;&nbsp; <a href="http://eprint.iacr.org/2014/093">The Related-Key Analysis of Feistel Constructions</a>.<br>
-	&nbsp;&nbsp;&nbsp;&nbsp; FSE 2014.
+	&nbsp;&nbsp;&nbsp;&nbsp; FSE 2014.<br><br>
 </li>
 <li>
 	Paul Baecher, Pooya Farshim, Marc Fischlin, and Martijn Stam.<br>
 	&nbsp;&nbsp;&nbsp;&nbsp; <a href="http://eprint.iacr.org/2013/350">Ideal-Cipher (Ir)reducibility for Blockcipher-Based Hash Functions</a>.<br>
-	&nbsp;&nbsp;&nbsp;&nbsp; EUROCRYPT 2013.
+	&nbsp;&nbsp;&nbsp;&nbsp; EUROCRYPT 2013.<br><br>
 </li>
 <li>
 	Pooya Farshim, Benoît Libert, Kenneth G. Paterson, and Elizabeth A. Quaglia.<br>
 	&nbsp;&nbsp;&nbsp;&nbsp; <a href="http://eprint.iacr.org/2012/673">Robust Encryption, Revisited</a>.<br>
-	&nbsp;&nbsp;&nbsp;&nbsp; PKC 2013.
+	&nbsp;&nbsp;&nbsp;&nbsp; PKC 2013.<br><br>
 </li>
 <li>
 	Manuel Barbosa and Pooya Farshim.<br>
 	&nbsp;&nbsp;&nbsp;&nbsp; <a href="http://eprint.iacr.org/2012/474">On the Semantic Security of Functional Encryption Schemes</a>.<br>
-	&nbsp;&nbsp;&nbsp;&nbsp; PKC 2013.
+	&nbsp;&nbsp;&nbsp;&nbsp; PKC 2013.<br><br>
 </li>
 <li>
 	Joël Alwen, Manuel Barbosa, Pooya Farshim, Rosario Gennaro, S. Dov Gordon, Stefano Tessaro, and David A. Wilson.<br>
 	&nbsp;&nbsp;&nbsp;&nbsp; <a href="http://link.springer.com/chapter/10.1007/978-3-642-45239-0_5">On the Relationship between Functional Encryption, Obfuscation, and Fully Homomorphic Encryption</a>.<br>
-	&nbsp;&nbsp;&nbsp;&nbsp; IMA International Conference 2013.
+	&nbsp;&nbsp;&nbsp;&nbsp; IMA International Conference 2013.<br><br>
 </li>
 <li>
 	Manuel Barbosa and Pooya Farshim.<br>
 	&nbsp;&nbsp;&nbsp;&nbsp; <a href="http://eprint.iacr.org/2011/215">Delegatable Homomorphic Encryption with Applications to Secure Outsourcing of Computation</a>.<br>
-	&nbsp;&nbsp;&nbsp;&nbsp; CT-RSA 2012.
+	&nbsp;&nbsp;&nbsp;&nbsp; CT-RSA 2012.<br><br>
 </li>
 <li>
 	Afonso Arriaga, Manuel Barbosa, and Pooya Farshim.<br>
 	&nbsp;&nbsp;&nbsp;&nbsp; <a href="http://eprint.iacr.org/2012/382">On the Joint Security of Signature and Encryption under Randomness Reuse: Efficiency and Security Amplification</a>.<br>
-	&nbsp;&nbsp;&nbsp;&nbsp; ACNS 2012.
+	&nbsp;&nbsp;&nbsp;&nbsp; ACNS 2012.<br><br>
 </li>
 <li>
 	Martin R. Albrecht, Pooya Farshim, Kenneth G. Paterson, and Gaven J. Watson.<br>
 	&nbsp;&nbsp;&nbsp;&nbsp; <a href="http://eprint.iacr.org/2011/213">On Cipher-Dependent Related-Key Attacks in the Ideal-Cipher Model</a>.<br>
-	&nbsp;&nbsp;&nbsp;&nbsp; FSE 2011.
+	&nbsp;&nbsp;&nbsp;&nbsp; FSE 2011.<br><br>
 </li>
 <li>
 	Manuel Barbosa and Pooya Farshim.<br>
 	&nbsp;&nbsp;&nbsp;&nbsp; <a href="http://farshim.files.wordpress.com/2011/09/strongcca_full.pdf">Relations among Notions of Complete Non-Malleability: Indistinguishability Characterisation and Efficient Construction without Random Oracles</a>.<br>
-	&nbsp;&nbsp;&nbsp;&nbsp; ACISP 2010.
+	&nbsp;&nbsp;&nbsp;&nbsp; ACISP 2010.<br><br>
 </li>
 <li>
 	Manuel Barbosa and Pooya Farshim.<br>
 	&nbsp;&nbsp;&nbsp;&nbsp; <a href="http://farshim.files.wordpress.com/2011/09/strongextractors_full.pdf">Strong Knowledge Extractors for Public-Key Encryption Schemes</a>.<br>
-	&nbsp;&nbsp;&nbsp;&nbsp; ACISP 2010.
+	&nbsp;&nbsp;&nbsp;&nbsp; ACISP 2010.<br><br>
 </li>
 <li>
 	Manuel Barbosa and Pooya Farshim.<br>
 	&nbsp;&nbsp;&nbsp;&nbsp; <a href="http://farshim.files.wordpress.com/2011/09/ts.pdf">Security Analysis of Standard Authentication and Key Agreement Protocols Utilising Timestamps</a>.<br>
-	&nbsp;&nbsp;&nbsp;&nbsp; AFRICACRYPT 2009.
+	&nbsp;&nbsp;&nbsp;&nbsp; AFRICACRYPT 2009.<br><br>
 </li>
 <li>
 	Pooya Farshim and Bogdan Warinschi.<br>
 	&nbsp;&nbsp;&nbsp;&nbsp; <a href="http://farshim.files.wordpress.com/2011/09/newcl.pdf">Certified Encryption Revisited</a>.<br>
-	&nbsp;&nbsp;&nbsp;&nbsp; AFRICACRYPT 2009.
+	&nbsp;&nbsp;&nbsp;&nbsp; AFRICACRYPT 2009.<br><br>
 </li>
 <li>
 	Manuel Barbosa and Pooya Farshim.<br>
 	&nbsp;&nbsp;&nbsp;&nbsp; <a href="http://eprint.iacr.org/2008/143">Certificateless Signcryption</a>.<br>
-	&nbsp;&nbsp;&nbsp;&nbsp; ASIACCS 2008.
+	&nbsp;&nbsp;&nbsp;&nbsp; ASIACCS 2008.<br><br>
 </li>
 <li>
 	Kamel Bentahar, Pooya Farshim, John Malone-Lee, and Nigel P. Smart.<br>
 	&nbsp;&nbsp;&nbsp;&nbsp; <a href="http://eprint.iacr.org/2005/058">Generic Constructions of Identity-Based and Certificateless KEMs</a>.<br>
-	&nbsp;&nbsp;&nbsp;&nbsp; Journal of Cryptology 2008.
+	&nbsp;&nbsp;&nbsp;&nbsp; Journal of Cryptology 2008.<br><br>
 </li>
 <li>
 	Manuel Barbosa and Pooya Farshim.<br>
 	&nbsp;&nbsp;&nbsp;&nbsp; <a href="http://farshim.files.wordpress.com/2011/09/reuse.pdf">Randomness Reuse: Improvements and Extensions</a>.<br>
-	&nbsp;&nbsp;&nbsp;&nbsp; IMA International Conference 2007.
+	&nbsp;&nbsp;&nbsp;&nbsp; IMA International Conference 2007.<br><br>
 </li>
 <li>
 	Manuel Barbosa and Pooya Farshim.<br>
 	&nbsp;&nbsp;&nbsp;&nbsp; <a href="http://eprint.iacr.org/2006/450">Secure Cryptographic Workflow in the Standard Model</a>.<br>
-	&nbsp;&nbsp;&nbsp;&nbsp; INDOCRYPT 2006.
+	&nbsp;&nbsp;&nbsp;&nbsp; INDOCRYPT 2006.<br><br>
 </li>
 <li>
 	Manuel Barbosa and Pooya Farshim.<br>
 	&nbsp;&nbsp;&nbsp;&nbsp; <a href="http://eprint.iacr.org/2005/217">Efficient Identity-Based Key Encapsulation to Multiple Parties</a>.<br>
-	&nbsp;&nbsp;&nbsp;&nbsp; IMA International Conference 2005.
+	&nbsp;&nbsp;&nbsp;&nbsp; IMA International Conference 2005.<br><br>
 </li>
 <p>
 	<strong>Other</strong>
@@ -220,12 +219,12 @@ author_profile: true
 <li>
 	Pooya Farshim.<br>
 	&nbsp;&nbsp;&nbsp;&nbsp; <a href="http://www.cs.bris.ac.uk/Publications/Papers/2000842.pdf">Extensions of Public-Key, Identity-Based and Certificateless Encryption Schemes</a>.<br>
-	&nbsp;&nbsp;&nbsp;&nbsp; PhD thesis, University of Bristol, 2008.
+	&nbsp;&nbsp;&nbsp;&nbsp; PhD thesis, University of Bristol, 2008.<br><br>
 </li>
 <li>
 	Manuel Barbosa, Liqun Chen, Zhaohui Cheng, Mark Chimley, Alexander W. Dent, Pooya Farshim, Keith Harrison, John Malone-Lee, Nigel P. Smart, and Frederik Vercauteren.<br>
 	&nbsp;&nbsp;&nbsp;&nbsp; <a href="http://grouper.ieee.org/groups/1363/IBC/submissions/Barbosa-SK-KEM-2006-06.pdf">SK-KEM: An Identity-Based KEM</a>.<br>
-	&nbsp;&nbsp;&nbsp;&nbsp; Submission to IEEE P1363.3, 2006.
+	&nbsp;&nbsp;&nbsp;&nbsp; Submission to IEEE P1363.3, 2006.<br><br>
 </li>
 <p>
 	<strong>Co-authors</strong>
