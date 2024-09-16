@@ -12,11 +12,9 @@ author_profile: true
 	<b>Publications</b>
 </p>
 <li>
-	<p>
 	Miguel Ambrona, Pooya Farshim, and Patrick Harasser.<br>
 	<a href="https://eprint.iacr.org/2024/">Block Ciphers in Idealized Models: Automated Proofs and New Security Results</a>.<br>
 	CCS 2024.
-	</p>
 </li>
 
 <p>
