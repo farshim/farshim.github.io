@@ -14,32 +14,32 @@ author_profile: true
 <li>
 	Miguel Ambrona, Pooya Farshim, and Patrick Harasser.<br>
 	&nbsp;&nbsp;&nbsp;&nbsp; <a href="https://eprint.iacr.org/2024/">Block Ciphers in Idealized Models: Automated Proofs and New Security Results</a>.<br>
-	&nbsp;&nbsp;&nbsp;&nbsp; CCS 2024.
+	&nbsp;&nbsp;&nbsp;&nbsp; CCS 2024.<br>
 </li>
 <li>
 	Jan Bobolz, Pooya Farshim, Markulf Kohlweiss, and Akira Takahashi.<br>
 	&nbsp;&nbsp;&nbsp;&nbsp; <a href="https://eprint.iacr.org/2024/818">The Brave New World of Global Generic Groups and UC-Secure Zero-Overhead SNARKs</a>.<br>
-	&nbsp;&nbsp;&nbsp;&nbsp; TCC 2024.
+	&nbsp;&nbsp;&nbsp;&nbsp; TCC 2024.<br>
 </li>
 <li>
 	Balthazar Bauer, Pooya Farshim, Patrick Harasser, and Markulf Kohlweiss.<br>
 	&nbsp;&nbsp;&nbsp;&nbsp; <a href="https://eprint.iacr.org/2023/1601">The Uber-Knowledge Assumption: A Bridge to the AGM</a>.<br>
-	&nbsp;&nbsp;&nbsp;&nbsp; CiC 2024.
+	&nbsp;&nbsp;&nbsp;&nbsp; CiC 2024.<br>
 </li>
 <li>
 	Balthazar Bauer, Pooya Farshim, Patrick Harasser, and Adam O'Neill.<br>
 	&nbsp;&nbsp;&nbsp;&nbsp; <a href="https://eprint.iacr.org/2022/1502">Beyond Uber: Instantiating Generic Groups via PGGs</a>.<br>
-	&nbsp;&nbsp;&nbsp;&nbsp; TCC 2022.
+	&nbsp;&nbsp;&nbsp;&nbsp; TCC 2022.<br>
 </li>
 <li>
 	Pooya Farshim and Stefano Tessaro.<br>
 	&nbsp;&nbsp;&nbsp;&nbsp; <a href="https://iacr.org/cryptodb/data/paper.php?pubkey=30908">Password Hashing and Preprocessing</a>.<br>
-	&nbsp;&nbsp;&nbsp;&nbsp; EUROCRYPT 2021.
+	&nbsp;&nbsp;&nbsp;&nbsp; EUROCRYPT 2021.<br>
 </li>
 <li>
 	Geoffroy Couteau, Pooya Farshim, and Mohammad Mahmoody.<br>
 	&nbsp;&nbsp;&nbsp;&nbsp; <a href="https://eprint.iacr.org/2021/016">Black-Box Uselessness: Composing Separations in Cryptography</a>.<br>
-	&nbsp;&nbsp;&nbsp;&nbsp; ITCS 2021.
+	&nbsp;&nbsp;&nbsp;&nbsp; ITCS 2021.<br>
 </li>
 <li>
 	[38] Pooya Farshim, Louiza Khati, Yannick Seurin, and Damien Vergnaud.<br>
