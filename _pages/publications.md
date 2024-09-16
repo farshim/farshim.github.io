@@ -15,6 +15,7 @@ author_profile: true
 	Miguel Ambrona, Pooya Farshim, and Patrick Harasser.<br>
 	&nbsp;&nbsp;&nbsp;&nbsp; <a href="https://eprint.iacr.org/2024/">Block Ciphers in Idealized Models: Automated Proofs and New Security Results</a>.<br>
 	&nbsp;&nbsp;&nbsp;&nbsp; CCS 2024.<br>
+	<br>
 </li>
 <li>
 	Jan Bobolz, Pooya Farshim, Markulf Kohlweiss, and Akira Takahashi.<br>
@@ -172,7 +173,7 @@ author_profile: true
 	Manuel Barbosa and Pooya Farshim.<br>
 	&nbsp;&nbsp;&nbsp;&nbsp; <a href="http://farshim.files.wordpress.com/2011/09/strongcca_full.pdf">Relations among Notions of Complete Non-Malleability: Indistinguishability Characterisation and Efficient Construction without Random Oracles</a>.<br>
 	&nbsp;&nbsp;&nbsp;&nbsp; ACISP 2010.
-</p>
+</li>
 <li>
 	Manuel Barbosa and Pooya Farshim.<br>
 	&nbsp;&nbsp;&nbsp;&nbsp; <a href="http://farshim.files.wordpress.com/2011/09/strongextractors_full.pdf">Strong Knowledge Extractors for Public-Key Encryption Schemes</a>.<br>
