@@ -144,12 +144,12 @@ author_profile: true
   </li>
   <li class="pub">
     <span class="pub__authors">Pooya Farshim and Arno Mittelbach</span>
-    <a class="pub__title" href="https://eprint.iacr.org/2016/423.pdf">Modeling Random Oracles under Unpredictable Queries</a>
+    <a class="pub__title" href="https://eprint.iacr.org/2016/423">Modeling Random Oracles under Unpredictable Queries</a>
     <span class="pub__venue">FSE 2016</span>
   </li>
   <li class="pub">
     <span class="pub__authors">Afonso Arriaga, Manuel Barbosa, and Pooya Farshim</span>
-    <a class="pub__title" href="http://eprint.iacr.org/2016/018.pdf">Private Functional Encryption: Indistinguishability-Based Definitions and Constructions from Obfuscation</a>
+    <a class="pub__title" href="https://eprint.iacr.org/2016/018">Private Functional Encryption: Indistinguishability-Based Definitions and Constructions from Obfuscation</a>
     <span class="pub__venue">INDOCRYPT 2016</span>
   </li>
   <li class="pub">
@@ -220,22 +220,22 @@ author_profile: true
   </li>
   <li class="pub">
     <span class="pub__authors">Manuel Barbosa and Pooya Farshim</span>
-    <a class="pub__title" href="http://farshim.files.wordpress.com/2011/09/strongcca_full.pdf">Relations among Notions of Complete Non-Malleability: Indistinguishability Characterisation and Efficient Construction without Random Oracles</a>
+    <a class="pub__title" href="{{ '/files/strongcca_full.pdf' | relative_url }}">Relations among Notions of Complete Non-Malleability: Indistinguishability Characterisation and Efficient Construction without Random Oracles</a>
     <span class="pub__venue">ACISP 2010</span>
   </li>
   <li class="pub">
     <span class="pub__authors">Manuel Barbosa and Pooya Farshim</span>
-    <a class="pub__title" href="http://farshim.files.wordpress.com/2011/09/strongextractors_full.pdf">Strong Knowledge Extractors for Public-Key Encryption Schemes</a>
+    <a class="pub__title" href="{{ '/files/strongextractors_full.pdf' | relative_url }}">Strong Knowledge Extractors for Public-Key Encryption Schemes</a>
     <span class="pub__venue">ACISP 2010</span>
   </li>
   <li class="pub">
     <span class="pub__authors">Manuel Barbosa and Pooya Farshim</span>
-    <a class="pub__title" href="http://farshim.files.wordpress.com/2011/09/ts.pdf">Security Analysis of Standard Authentication and Key Agreement Protocols Utilising Timestamps</a>
+    <a class="pub__title" href="{{ '/files/ts.pdf' | relative_url }}">Security Analysis of Standard Authentication and Key Agreement Protocols Utilising Timestamps</a>
     <span class="pub__venue">AFRICACRYPT 2009</span>
   </li>
   <li class="pub">
     <span class="pub__authors">Pooya Farshim and Bogdan Warinschi</span>
-    <a class="pub__title" href="http://farshim.files.wordpress.com/2011/09/newcl.pdf">Certified Encryption Revisited</a>
+    <a class="pub__title" href="{{ '/files/newcl.pdf' | relative_url }}">Certified Encryption Revisited</a>
     <span class="pub__venue">AFRICACRYPT 2009</span>
   </li>
   <li class="pub">
@@ -250,7 +250,7 @@ author_profile: true
   </li>
   <li class="pub">
     <span class="pub__authors">Manuel Barbosa and Pooya Farshim</span>
-    <a class="pub__title" href="http://farshim.files.wordpress.com/2011/09/reuse.pdf">Randomness Reuse: Improvements and Extensions</a>
+    <a class="pub__title" href="{{ '/files/reuse.pdf' | relative_url }}">Randomness Reuse: Improvements and Extensions</a>
     <span class="pub__venue">IMA International Conference 2007</span>
   </li>
   <li class="pub">
@@ -275,12 +275,12 @@ author_profile: true
   </li>
   <li class="pub">
     <span class="pub__authors">Pooya Farshim</span>
-    <a class="pub__title" href="http://www.cs.bris.ac.uk/Publications/Papers/2000842.pdf">Extensions of Public-Key, Identity-Based and Certificateless Encryption Schemes</a>
+    <a class="pub__title" href="{{ '/files/farshim-phd-thesis-bristol-2008.pdf' | relative_url }}">Extensions of Public-Key, Identity-Based and Certificateless Encryption Schemes</a>
     <span class="pub__venue">PhD thesis, University of Bristol, 2008</span>
   </li>
   <li class="pub">
     <span class="pub__authors">Manuel Barbosa, Liqun Chen, Zhaohui Cheng, Mark Chimley, Alexander W. Dent, Pooya Farshim, Keith Harrison, John Malone-Lee, Nigel P. Smart, and Frederik Vercauteren</span>
-    <a class="pub__title" href="http://grouper.ieee.org/groups/1363/IBC/submissions/Barbosa-SK-KEM-2006-06.pdf">SK-KEM: An Identity-Based KEM</a>
+    <a class="pub__title" href="{{ '/files/sk-kem-ieee-p1363.3-2006.pdf' | relative_url }}">SK-KEM: An Identity-Based KEM</a>
     <span class="pub__venue">Submission to IEEE P1363.3, 2006</span>
   </li>
 </ul>
