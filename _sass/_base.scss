@@ -75,20 +75,20 @@ p { text-wrap: pretty; }
 em, i { font-style: italic; }
 
 /* --- Links -------------------------------------------------------------
-   Resting links are ink, not red: the underline alone is the affordance,
-   so nothing here depends on color perception (WCAG 1.4.1). Red is kept
-   in reserve for hover, so a link only "lights up" on interaction. */
+   Resting links carry the clay accent, darkening further on hover. Kept
+   as an underline too (never `text-decoration: none`), so the affordance
+   doesn't rest on color alone even though color also carries it here. */
 a {
-  color: var(--ink-body);
+  color: var(--accent-text);
   text-decoration: underline;
   text-decoration-thickness: 1px;
   text-underline-offset: 0.15em;
-  text-decoration-color: color-mix(in srgb, var(--ink-body) 40%, transparent);
+  text-decoration-color: color-mix(in srgb, var(--accent-text) 35%, transparent);
   transition: color var(--transition), text-decoration-color var(--transition);
 }
 
 a:hover {
-  color: var(--accent-text);
+  color: var(--accent-hover);
   text-decoration-color: currentColor;
 }
 
