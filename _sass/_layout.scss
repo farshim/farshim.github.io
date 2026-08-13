@@ -53,12 +53,12 @@
 }
 
 .masthead__title {
-  font-family: var(--font-serif);
+  font-family: var(--font-display);
   font-size: var(--step-1);
-  font-weight: 600;
+  font-weight: 400;
   color: var(--ink);
   text-decoration: none;
-  letter-spacing: -0.015em;
+  letter-spacing: 0;
   white-space: nowrap;
 }
 .masthead__title:hover { color: var(--accent-text); }

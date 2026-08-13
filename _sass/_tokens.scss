@@ -6,15 +6,25 @@
 
 :root {
   /* --- Typeface stacks -------------------------------------------------
-     Georgia sets the headings and the body copy: it was drawn for screens,
-     has a large x-height and old-style figures, and ships on effectively
-     every desktop and mobile OS — so still no web fonts, no network
-     request, no FOUT and no layout shift.
-     The sans is kept for small UI and metadata, where Georgia's warmth
-     turns into noise: nav, venues, author lines, footer. */
+     The New Yorker sets its masthead in Irvin and its body in Adobe Caslon.
+     Both are licensed faces we cannot ship, so this approximates the pair
+     with Caslons and old-style serifs that are already installed:
+
+       display  Big Caslon is a genuine display Caslon bundled with macOS;
+                Baskerville Old Face is the nearest Windows equivalent.
+       body     Hoefler Text and Baskerville are high-contrast old-style
+                faces with true italics and old-style figures — the closest
+                system stand-ins for Caslon's colour on screen.
+
+     Georgia anchors both stacks as the universal fallback, so a machine
+     with none of the above still gets a proper old-style serif. Still no
+     web fonts: no network request, no FOUT, no layout shift. */
+  --font-display:
+    "Big Caslon", "Baskerville Old Face", "Hoefler Text", Baskerville,
+    "Palatino Linotype", Palatino, Georgia, serif;
   --font-serif:
-    Georgia, "Iowan Old Style", Charter, "Bitstream Charter",
-    Cambria, "Times New Roman", Times, serif;
+    "Hoefler Text", Baskerville, "Big Caslon", "Palatino Linotype",
+    Palatino, "Book Antiqua", Georgia, "Times New Roman", serif;
   --font-sans:
     ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     "Helvetica Neue", Arial, sans-serif;
@@ -49,12 +59,16 @@
   /* --- Type scale ------------------------------------------------------
      Fluid between the small and large breakpoints via clamp(), so there is
      no jump at a media query and no need to restate sizes per breakpoint. */
-  --step--1: clamp(0.83rem, 0.80rem + 0.15vw, 0.89rem);
-  --step-0:  clamp(1.00rem, 0.96rem + 0.20vw, 1.09rem);
-  --step-1:  clamp(1.20rem, 1.14rem + 0.30vw, 1.36rem);
-  --step-2:  clamp(1.44rem, 1.34rem + 0.50vw, 1.70rem);
-  --step-3:  clamp(1.73rem, 1.57rem + 0.80vw, 2.13rem);
-  --step-4:  clamp(2.07rem, 1.83rem + 1.20vw, 2.66rem);
+  /* Sizes run ~7% larger than they would for Georgia: Hoefler Text and
+     Baskerville have a markedly smaller x-height, so they read smaller at
+     an identical font-size. The sans metadata is left at --step--1 and so
+     grows too, which keeps its relationship to the body text intact. */
+  --step--1: clamp(0.89rem, 0.86rem + 0.15vw, 0.95rem);
+  --step-0:  clamp(1.07rem, 1.03rem + 0.20vw, 1.17rem);
+  --step-1:  clamp(1.28rem, 1.22rem + 0.30vw, 1.46rem);
+  --step-2:  clamp(1.54rem, 1.43rem + 0.50vw, 1.82rem);
+  --step-3:  clamp(1.85rem, 1.68rem + 0.80vw, 2.28rem);
+  --step-4:  clamp(2.21rem, 1.96rem + 1.20vw, 2.85rem);
 
   --leading-tight: 1.2;
   --leading-snug:  1.35;
