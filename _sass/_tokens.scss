@@ -6,12 +6,15 @@
 
 :root {
   /* --- Typeface stacks -------------------------------------------------
-     System-font approximations of the claude.com pairing: a transitional
-     serif for display, a neutral grotesque for body and UI. No web fonts,
-     so there is no network request, no FOUT and no layout shift. */
+     Georgia sets the headings and the body copy: it was drawn for screens,
+     has a large x-height and old-style figures, and ships on effectively
+     every desktop and mobile OS — so still no web fonts, no network
+     request, no FOUT and no layout shift.
+     The sans is kept for small UI and metadata, where Georgia's warmth
+     turns into noise: nav, venues, author lines, footer. */
   --font-serif:
-    ui-serif, "Iowan Old Style", "Charter", "Bitstream Charter",
-    "Source Serif 4", Cambria, Georgia, serif;
+    Georgia, "Iowan Old Style", Charter, "Bitstream Charter",
+    Cambria, "Times New Roman", Times, serif;
   --font-sans:
     ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     "Helvetica Neue", Arial, sans-serif;

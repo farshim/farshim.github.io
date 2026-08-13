@@ -5,26 +5,28 @@ permalink: /publications/
 author_profile: true
 ---
 
-<p class="lede">
-  My research is focused on the foundational security and practical
-  implementation of cryptographic protocols within blockchain technologies. I
-  design and formally analyse composable protocols for decentralized systems,
-  encompassing scaling solutions like ZK/optimistic <strong>rollups</strong>,
-  cross-chain <strong>interoperability solutions</strong>, as well as mechanisms
-  for on-chain governance and <strong>voting</strong>.
-</p>
+<div class="lede">
+  <p>
+    My research is focused on the foundational security and practical
+    implementation of cryptographic protocols within blockchain technologies. I
+    design and formally analyse composable protocols for decentralized systems,
+    encompassing scaling solutions like ZK/optimistic <strong>rollups</strong>,
+    cross-chain <strong>interoperability solutions</strong>, as well as mechanisms
+    for on-chain governance and <strong>voting</strong>.
+  </p>
 
-<p>
-  A central drive of my work involves the automated verification of protocols
-  and security proofs using formal methods tools, such as
-  <strong>model checking</strong>.
-</p>
+  <p>
+    A central drive of my work involves the automated verification of protocols
+    and security proofs using formal methods tools, such as
+    <strong>model checking</strong>.
+  </p>
 
-<p>
-  Simultaneously, my interests cover <strong>core cryptographic primitives</strong>
-  (e.g., memory-hard functions, authenticated encryption, and block ciphers) and
-  cutting-edge functionalities like homomorphic and functional encryption.
-</p>
+  <p>
+    Simultaneously, my interests cover <strong>core cryptographic primitives</strong>
+    (e.g., memory-hard functions, authenticated encryption, and block ciphers) and
+    cutting-edge functionalities like homomorphic and functional encryption.
+  </p>
+</div>
 
 <p>
   See also my <a href="http://www.informatik.uni-trier.de/~ley/db/indices/a-tree/f/Farshim:Pooya.html">DBLP</a>
@@ -136,7 +138,7 @@ author_profile: true
     <span class="pub__venue">ToSC (FSE) 2018</span>
   </li>
   <li class="pub">
-    <span class="pub__authors">Pooya Farshim, Claudio Orlandi, and Razvan Rosie</span>
+    <span class="pub__authors">Pooya Farshim, Claudio Orlandi, and Răzvan Roşie</span>
     <a class="pub__title" href="http://tosc.iacr.org/index.php/ToSC/article/view/604/545">Security of Symmetric Primitives under Incorrect Usage of Keys</a>
     <span class="pub__venue">ToSC (FSE) 2017</span>
   </li>
@@ -286,35 +288,53 @@ author_profile: true
 <h2 class="section-title">Co-authors</h2>
 
 <p class="inline-links">
-  <a href="http://martinralbrecht.wordpress.com">Martin R. Albrecht</a> (5),
-  <a href="https://miguel-ambrona.github.io/">Miguel Ambrona</a>,
+  <a href="http://martinralbrecht.wordpress.com">Martin R. Albrecht</a> (3),
   <a href="http://www.informatik.uni-trier.de/~ley/pers/hd/a/Alwen:Jo=euml=l.html">Joël Alwen</a>,
+  <a href="https://miguel-ambrona.github.io/">Miguel Ambrona</a>,
   <a href="https://wwwen.uni.lu/snt/people/afonso_delerue_arriaga">Afonso Arriaga</a> (2),
   <a href="http://www.cdc.informatik.tu-darmstadt.de/~baecher/">Paul Baecher</a>,
-  <a href="http://www3.di.uminho.pt/~mbb/">Manuel Barbosa</a> (14),
+  <a href="http://www3.di.uminho.pt/~mbb/">Manuel Barbosa</a> (15),
   <a href="https://www.iacr.org/cryptodb/data/author.php?authorkey=10628">Balthazar Bauer</a> (3),
   <a href="http://scholar.google.co.uk/citations?user=5RPtPhYAAAAJ&amp;hl=en">Kamel Bentahar</a>,
+  Raghav Bhaskar,
   <a href="https://jan-bobolz.de/">Jan Bobolz</a>,
-  <a href="http://chrisbrzuska.de">Chris Brzuska</a> (2),
+  <a href="http://chrisbrzuska.de">Christina Brzuska</a> (2),
+  Pyrros Chaidos,
+  Liqun Chen,
+  Zhaohui Cheng,
+  Mark Chimley,
   <a href="https://www.di.ens.fr/aisling.connolly/research/">Aisling Connolly</a>,
+  Sandro Coretti,
   <a href="http://www.geoffroycouteau.fr/">Geoffroy Couteau</a>,
   <a href="http://www.isg.rhul.ac.uk/~psai074/">Jean Paul Degabriele</a>,
+  Alexander W. Dent,
   <a href="https://cs.nyu.edu/~dodis/">Yevgeniy Dodis</a>,
   <a href="http://www-calfor.lip6.fr/~jcf/">Jean-Charles Faugère</a>,
+  Denis Firsov,
   <a href="http://www.fischlin.de">Marc Fischlin</a>,
+  Matthias Fitzi,
   <a href="https://www.di.ens.fr/~fuchsbau/">Georg Fuchsbauer</a> (2),
   <a href="http://www-cs.ccny.cuny.edu/~rosario/">Rosario Gennaro</a>,
   <a href="http://www.cs.columbia.edu/~gordon/">S. Dov Gordon</a>,
-  <a href="https://www.cryptoplexity.informatik.tu-darmstadt.de/cryptoplexity/team_cryptoplexity/patrick_harasser_cryptoplexity/index.en.jsp">Patrick Harasser</a> (3),
-  <a href="https://crypto.iti.kit.edu/hofheinz">Dennis Hofheinz</a> (3),
+  Shuai Han,
+  <a href="https://www.cryptoplexity.informatik.tu-darmstadt.de/cryptoplexity/team_cryptoplexity/patrick_harasser_cryptoplexity/index.en.jsp">Patrick Harasser</a> (4),
+  Keith Harrison,
+  Gottfried Herold,
+  Julia Hesse,
+  <a href="https://crypto.iti.kit.edu/hofheinz">Dennis Hofheinz</a> (2),
+  Dimitar Jetchev,
+  Martti Karvonen,
   <a href="http://fr.viadeo.com/fr/profile/louiza.khati">Louiza Khati</a> (2),
-  <a href="https://homepages.inf.ed.ac.uk/mkohlwei/">Markulf Kohlweiss</a> (2),
-  <a href="https://www.cs.bris.ac.uk/home/cseldv/">Enrique Larraia</a>,
+  Aggelos Kiayias (2),
+  Andre Knispel,
+  <a href="https://homepages.inf.ed.ac.uk/mkohlwei/">Markulf Kohlweiss</a> (4),
+  <a href="https://www.cs.bris.ac.uk/home/cseldv/">Enrique Larraia</a> (2),
   <a href="https://research.technicolor.com/~BenoitLibert">Benoît Libert</a>,
   <a href="https://www.cs.virginia.edu/~mohammad/">Mohammad Mahmoody</a>,
-  John Malone-Lee,
+  John Malone-Lee (2),
   <a href="http://www.cryptoplexity.informatik.tu-darmstadt.de/members/sogolmazaheri/sogolmazaheri.en.jsp">Sogol Mazaheri</a> (2),
   <a href="http://www.arno-mittelbach.de">Arno Mittelbach</a> (3),
+  Anca Nitulescu,
   <a href="https://groups.cs.umass.edu/oneill/">Adam O'Neill</a>,
   <a href="http://www.cs.au.dk/~orlandi/">Claudio Orlandi</a>,
   <a href="http://www.di.ens.fr/~passelegue/">Alain Passelègue</a>,
@@ -325,12 +345,15 @@ author_profile: true
   <a href="http://lizquaglia.wordpress.com/">Elizabeth A. Quaglia</a>,
   <a href="https://www.di.ens.fr/RazvanRosie.html.en">Răzvan Roşie</a>,
   <a href="http://yannickseurin.free.fr/">Yannick Seurin</a>,
-  <a href="http://www.cs.bris.ac.uk/~nigel/">Nigel P. Smart</a>,
+  <a href="http://www.cs.bris.ac.uk/~nigel/">Nigel P. Smart</a> (2),
+  Karl Southern,
   <a href="http://www.cs.bris.ac.uk/~stam/">Martijn Stam</a>,
   <a href="https://akiratk0355.github.io/">Akira Takahashi</a>,
   <a href="http://people.csail.mit.edu/tessaro/">Stefano Tessaro</a> (3),
+  Frederik Vercauteren,
   <a href="http://www.di.ens.fr/~vergnaud/">Damien Vergnaud</a> (2),
+  Philip Wadler,
   <a href="http://www.cs.bris.ac.uk/~bogdan/">Bogdan Warinschi</a>,
-  <a href="http://www.cs.bris.ac.uk/home/csgww/">Gaven J. Watson</a>, and
-  <a href="http://web.mit.edu/dwilson/www/">David A. Wilson</a>.
+  <a href="http://www.cs.bris.ac.uk/home/csgww/">Gaven J. Watson</a>,
+  and <a href="http://web.mit.edu/dwilson/www/">David A. Wilson</a>.
 </p>

@@ -28,7 +28,7 @@ body {
   min-height: 100vh;
   background: var(--surface);
   color: var(--ink-body);
-  font-family: var(--font-sans);
+  font-family: var(--font-serif);
   font-size: var(--step-0);
   line-height: var(--leading-body);
   font-synthesis-weight: none;
@@ -40,11 +40,13 @@ body {
 /* --- Headings ----------------------------------------------------------
    Serif, per the claude.com pairing. Weight is kept moderate; the serif
    and the size carry the hierarchy, so bold is not also needed. */
+/* Georgia ships only 400 and 700, so headings ask for 700 outright rather
+   than a 600 the browser would have to round or synthesize. */
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--font-serif);
   color: var(--ink);
   line-height: var(--leading-tight);
-  font-weight: 600;
+  font-weight: 700;
   letter-spacing: -0.011em;
   text-wrap: balance;   /* avoid one-word orphan lines in headings */
 }

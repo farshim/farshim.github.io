@@ -47,6 +47,7 @@
 .pub:hover { border-inline-start-color: var(--accent); }
 
 .pub__authors {
+  font-family: var(--font-sans);
   font-size: var(--step--1);
   color: var(--ink-muted);
 }
@@ -68,6 +69,7 @@
 /* Venue set in small caps — the typographic convention for a citation
    line, and it distinguishes the venue without another colour. */
 .pub__venue {
+  font-family: var(--font-sans);
   font-size: var(--step--1);
   color: var(--ink-muted);
   font-variant-caps: all-small-caps;
@@ -105,6 +107,7 @@
 }
 
 .entry__meta {
+  font-family: var(--font-sans);
   font-size: var(--step--1);
   color: var(--ink-muted);
 }
@@ -136,6 +139,7 @@
 }
 
 .year-list__year {
+  font-family: var(--font-sans);
   font-variant-numeric: tabular-nums;
   font-size: var(--step--1);
   color: var(--ink-faint);
@@ -159,9 +163,15 @@
   white-space: nowrap;
 }
 
+/* Opening statement. Applied to a wrapper rather than a single <p>, so a
+   multi-paragraph blurb stays one size throughout instead of stepping down
+   after the first paragraph. */
 .lede {
   font-size: var(--step-1);
-  line-height: var(--leading-snug);
+  line-height: 1.5;      /* looser than --leading-snug: this runs to several
+                            paragraphs, not a one-line standfirst */
   color: var(--ink-body);
   max-width: var(--measure);
 }
+
+.lede p + p { margin-block-start: var(--space-4); }
