@@ -11,7 +11,10 @@
          src="{{ a.avatar | prepend: '/images/' | relative_url }}"
          alt="{{ a.name }}" width="564" height="600" loading="lazy" decoding="async">
 
-    <h2 class="profile__name">{{ a.name }}</h2>
+    {%- comment -%}
+      No name heading here: the masthead wordmark already names the site
+      owner on every page, so repeating it in the sidebar was redundant.
+    {%- endcomment -%}
     {%- if a.bio %}<p class="profile__bio">{{ a.bio }}</p>{% endif %}
 
     <ul class="profile__links">
