@@ -11,7 +11,7 @@
 
 /* Section headings inside a page, e.g. "Publications", "Co-authors". */
 .section-title {
-  font-size: var(--step-2);
+  font-size: var(--step-1);
   margin-block: var(--space-8) var(--space-5);
 }
 .section-title:first-child { margin-block-start: 0; }
@@ -54,7 +54,7 @@
 
 .pub__title {
   font-family: var(--font-serif);
-  font-size: var(--step-1);
+  font-size: var(--step-0);
   line-height: var(--leading-snug);
   color: var(--ink);
   text-decoration-color: color-mix(in srgb, var(--accent) 55%, transparent);
@@ -102,7 +102,7 @@
 
 .entry__name {
   font-family: var(--font-serif);
-  font-size: var(--step-1);
+  font-size: var(--step-0);
   line-height: var(--leading-snug);
 }
 
