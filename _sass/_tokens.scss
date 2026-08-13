@@ -80,7 +80,8 @@
 
   --leading-tight: 1.2;
   --leading-snug:  1.35;
-  --leading-body:  1.65;  /* long-form prose wants a generous measure     */
+  --leading-body:  1.55;  /* tightened from 1.65 -- still generous for      */
+                           /* long-form prose, just less airy                */
 
   /* --- Spacing (4px base) --------------------------------------------- */
   --space-1:  0.25rem;
