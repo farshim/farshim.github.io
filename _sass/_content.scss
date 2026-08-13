@@ -163,13 +163,13 @@
   white-space: nowrap;
 }
 
-/* Opening statement. Applied to a wrapper rather than a single <p>, so a
-   multi-paragraph blurb stays one size throughout instead of stepping down
-   after the first paragraph. */
+/* Opening statement. Deliberately NOT set larger than body copy: prose runs
+   at --step-0 on every page, including the landing page, so an enlarged lede
+   made Research and Contact jump a size relative to it. This is now purely a
+   grouping wrapper — measure, colour and paragraph rhythm, no size change. */
 .lede {
-  font-size: var(--step-1);
-  line-height: 1.5;      /* looser than --leading-snug: this runs to several
-                            paragraphs, not a one-line standfirst */
+  font-size: var(--step-0);
+  line-height: var(--leading-body);
   color: var(--ink-body);
   max-width: var(--measure);
 }
