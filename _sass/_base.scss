@@ -75,19 +75,20 @@ p { text-wrap: pretty; }
 em, i { font-style: italic; }
 
 /* --- Links -------------------------------------------------------------
-   Underlines are kept (never `text-decoration: none` on body links) but
-   thinned and offset so a dense publication list does not look striped. */
+   Resting links are ink, not red: the underline alone is the affordance,
+   so nothing here depends on color perception (WCAG 1.4.1). Red is kept
+   in reserve for hover, so a link only "lights up" on interaction. */
 a {
-  color: var(--accent-text);
+  color: var(--ink-body);
   text-decoration: underline;
   text-decoration-thickness: 1px;
   text-underline-offset: 0.15em;
-  text-decoration-color: color-mix(in srgb, var(--accent-text) 35%, transparent);
+  text-decoration-color: color-mix(in srgb, var(--ink-body) 40%, transparent);
   transition: color var(--transition), text-decoration-color var(--transition);
 }
 
 a:hover {
-  color: var(--accent-hover);
+  color: var(--accent-text);
   text-decoration-color: currentColor;
 }
 

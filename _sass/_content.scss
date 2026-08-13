@@ -9,6 +9,20 @@
   border-block-end: 1px solid var(--rule);
 }
 
+/* Drop cap on the opening paragraph of the homepage bio only — scoped to
+   .content--home (set in _layouts/page.html for permalink: /) so a
+   research abstract or a course listing never gets one by accident. */
+.content--home .flow > p:first-of-type::first-letter {
+  font-family: var(--font-display);
+  font-size: 3.6em;
+  font-weight: 400;
+  line-height: 0.82;
+  float: left;
+  padding: 0.03em 0.08em 0 0;
+  margin-block-start: 0.03em;
+  color: var(--ink);
+}
+
 /* Section headings inside a page, e.g. "Publications", "Co-authors". */
 .section-title {
   font-size: var(--step-1);
