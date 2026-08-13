@@ -35,13 +35,13 @@ author_profile: true
 
 <ul class="pubs">
   <li class="pub">
-    <span class="pub__authors">Pooya Farshim, Martti Karvonen, Andre Knispel, and Philip Wadler</span>
-    <span class="pub__title">UC, Categorically: Rigorous Diagrammatic Reasoning</span>
+    <span class="pub__authors">Pooya Farshim, Martti Karvonen, Andre Knispel, Markulf Kohlweiss, and Philip Wadler</span>
+    <a class="pub__title" href="https://eprint.iacr.org/2026/1605">UC, Categorically: Rigorous Diagrammatic Proofs</a>
     <span class="pub__venue">In submission, 2026</span>
   </li>
   <li class="pub">
-    <span class="pub__authors">Pyrros Chaidos, Pooya Farshim, Denis Firsov, Markulf Kohlweiss, and Aggelos Kiayias</span>
-    <span class="pub__title">Crossing with Confidence: Formal Analysis and Model Checking of Blockchain Bridges</span>
+    <span class="pub__authors">Pyrros Chaidos, Pooya Farshim, Denis Firsov, Dimitar Jetchev, Aggelos Kiayias, Markulf Kohlweiss, and Anca Nitulescu</span>
+    <a class="pub__title" href="https://eprint.iacr.org/2026/292">Crossing with Confidence: Formal Analysis and Model Checking of Blockchain Bridges</a>
     <span class="pub__venue">In submission, 2026</span>
   </li>
 </ul>
@@ -50,13 +50,13 @@ author_profile: true
 
 <ul class="pubs">
   <li class="pub">
-    <span class="pub__authors">Raghav Bhaskar, Matthias Fitzi, Pooya Farshim, and Aggelos Kiayias</span>
-    <span class="pub__title">Beyond Blockchain Ballots: UC-Secure Layer-2 Voting and Governance</span>
+    <span class="pub__authors">Raghav Bhaskar, Pooya Farshim, Matthias Fitzi, and Aggelos Kiayias</span>
+    <a class="pub__title" href="https://eprint.iacr.org/2026/1521">Beyond Blockchain Ballots: UC-Secure Layer-2 Voting and Governance</a>
     <span class="pub__venue">IEEE Computer Security Foundations Symposium, CSF 2026</span>
   </li>
   <li class="pub">
     <span class="pub__authors">Sandro Coretti, Pooya Farshim, Patrick Harasser, and Karl Southern</span>
-    <span class="pub__title">Multi-Source Randomness Extraction and Generation in the Random-Oracle Model</span>
+    <a class="pub__title" href="https://eprint.iacr.org/2025/1258">Multi-Source Randomness Extraction and Generation in the Random-Oracle Model</a>
     <span class="pub__venue">Information-Theoretic Cryptography, ITC 2025</span>
   </li>
   <li class="pub">
@@ -268,7 +268,7 @@ author_profile: true
 <ul class="pubs">
   <li class="pub">
     <span class="pub__authors">Pooya Farshim and Emil Simion (editors)</span>
-    <span class="pub__title">Innovative Security Solutions for Information Technology and Communications &mdash; 10th International Conference, SecITC 2017</span>
+    <a class="pub__title" href="https://link.springer.com/book/10.1007/978-3-319-69284-5">Innovative Security Solutions for Information Technology and Communications &mdash; 10th International Conference, SecITC 2017</a>
     <span class="pub__venue">LNCS 10543, Springer, 2017</span>
   </li>
   <li class="pub">

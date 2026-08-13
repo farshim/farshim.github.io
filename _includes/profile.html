@@ -16,14 +16,18 @@
 
     <ul class="profile__links">
       {%- if a.employer %}
+      {%- capture employer_icon -%}
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"
+             stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <path d="M3 21h18M5 21V7l7-4 7 4v14M9 9h.01M15 9h.01M9 13h.01M15 13h.01M9 17h.01M15 17h.01"/>
+        </svg>
+      {%- endcapture -%}
       <li>
-        <span class="profile__meta">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"
-               stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-            <path d="M3 21h18M5 21V7l7-4 7 4v14M9 9h.01M15 9h.01M9 13h.01M15 13h.01M9 17h.01M15 17h.01"/>
-          </svg>
-          {{ a.employer }}
-        </span>
+        {%- if a.employer_url %}
+          <a class="profile__link" href="{{ a.employer_url }}">{{ employer_icon }} {{ a.employer }}</a>
+        {%- else %}
+          <span class="profile__meta">{{ employer_icon }} {{ a.employer }}</span>
+        {%- endif %}
       </li>
       {%- endif %}
 
