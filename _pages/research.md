@@ -6,14 +6,24 @@ author_profile: true
 ---
 
 <p class="lede">
-  I am interested in the rigorous development of cryptographic primitives and
-  protocols, as well as the relationships between primitives and protocols. My
-  work at IOG centers around the design and analysis of composable layer-2
-  blockchain protocols. My work at Durham is on idealized models of computation
-  (such as the random-oracle and generic-group models) and has been supported by
-  an EPSRC new-investigator grant. In the past I have worked on cryptosystems
-  with advanced functionalities (e.g., functional encryption, multi-linear maps,
-  and obfuscation) and public-key and identity-based cryptosystems.
+  My research is focused on the foundational security and practical
+  implementation of cryptographic protocols within blockchain technologies. I
+  design and formally analyse composable protocols for decentralized systems,
+  encompassing scaling solutions like ZK/optimistic <strong>rollups</strong>,
+  cross-chain <strong>interoperability solutions</strong>, as well as mechanisms
+  for on-chain governance and <strong>voting</strong>.
+</p>
+
+<p>
+  A central drive of my work involves the automated verification of protocols
+  and security proofs using formal methods tools, such as
+  <strong>model checking</strong>.
+</p>
+
+<p>
+  Simultaneously, my interests cover <strong>core cryptographic primitives</strong>
+  (e.g., memory-hard functions, authenticated encryption, and block ciphers) and
+  cutting-edge functionalities like homomorphic and functional encryption.
 </p>
 
 <p>
@@ -21,9 +31,34 @@ author_profile: true
   and <a href="http://scholar.google.com/citations?user=w_Pjc6MAAAAJ&amp;hl=en">Google Scholar</a> pages.
 </p>
 
+<h2 class="section-title">In submission</h2>
+
+<ul class="pubs">
+  <li class="pub">
+    <span class="pub__authors">Pooya Farshim, Martti Karvonen, Andre Knispel, and Philip Wadler</span>
+    <span class="pub__title">UC, Categorically: Rigorous Diagrammatic Reasoning</span>
+    <span class="pub__venue">In submission, 2026</span>
+  </li>
+  <li class="pub">
+    <span class="pub__authors">Pyrros Chaidos, Pooya Farshim, Denis Firsov, Markulf Kohlweiss, and Aggelos Kiayias</span>
+    <span class="pub__title">Crossing with Confidence: Formal Analysis and Model Checking of Blockchain Bridges</span>
+    <span class="pub__venue">In submission, 2026</span>
+  </li>
+</ul>
+
 <h2 class="section-title">Publications</h2>
 
 <ul class="pubs">
+  <li class="pub">
+    <span class="pub__authors">Raghav Bhaskar, Matthias Fitzi, Pooya Farshim, and Aggelos Kiayias</span>
+    <span class="pub__title">Beyond Blockchain Ballots: UC-Secure Layer-2 Voting and Governance</span>
+    <span class="pub__venue">IEEE Computer Security Foundations Symposium, CSF 2026</span>
+  </li>
+  <li class="pub">
+    <span class="pub__authors">Sandro Coretti, Pooya Farshim, Patrick Harasser, and Karl Southern</span>
+    <span class="pub__title">Multi-Source Randomness Extraction and Generation in the Random-Oracle Model</span>
+    <span class="pub__venue">Information-Theoretic Cryptography, ITC 2025</span>
+  </li>
   <li class="pub">
     <span class="pub__authors">Miguel Ambrona, Pooya Farshim, and Patrick Harasser</span>
     <a class="pub__title" href="https://eprint.iacr.org/2024/1584">Block Ciphers in Idealized Models: Automated Proofs and New Security Results</a>
@@ -231,6 +266,11 @@ author_profile: true
 <h2 class="section-title">Other</h2>
 
 <ul class="pubs">
+  <li class="pub">
+    <span class="pub__authors">Pooya Farshim and Emil Simion (editors)</span>
+    <span class="pub__title">Innovative Security Solutions for Information Technology and Communications &mdash; 10th International Conference, SecITC 2017</span>
+    <span class="pub__venue">LNCS 10543, Springer, 2017</span>
+  </li>
   <li class="pub">
     <span class="pub__authors">Pooya Farshim</span>
     <a class="pub__title" href="http://www.cs.bris.ac.uk/Publications/Papers/2000842.pdf">Extensions of Public-Key, Identity-Based and Certificateless Encryption Schemes</a>
