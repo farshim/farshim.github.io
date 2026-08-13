@@ -1,0 +1,105 @@
+/* ==========================================================================
+   Design tokens
+   Exposed as CSS custom properties so they can be overridden per-media
+   (dark mode, print) without recompiling Sass.
+   ========================================================================== */
+
+:root {
+  /* --- Typeface stacks -------------------------------------------------
+     System-font approximations of the claude.com pairing: a transitional
+     serif for display, a neutral grotesque for body and UI. No web fonts,
+     so there is no network request, no FOUT and no layout shift. */
+  --font-serif:
+    ui-serif, "Iowan Old Style", "Charter", "Bitstream Charter",
+    "Source Serif 4", Cambria, Georgia, serif;
+  --font-sans:
+    ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif;
+  --font-mono:
+    ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas,
+    "Liberation Mono", monospace;
+
+  /* --- Colour ----------------------------------------------------------
+     Warm ivory ground rather than pure white: lower glare, and it makes
+     the black text read as ink rather than as a screen.
+     Contrast ratios against --surface are noted; all body-text values
+     clear WCAG AA (4.5:1). */
+  --surface:        #faf9f5;  /* page ground                              */
+  --surface-sunk:   #f0eee6;  /* code blocks, blockquotes, table stripes  */
+  --surface-raised: #fffefb;  /* cards lifted off the ground              */
+
+  --ink:            #141413;  /* headings                        17.5:1   */
+  --ink-body:       #1f1e1d;  /* body copy                       15.8:1   */
+  --ink-muted:      #6c6a64;  /* metadata, captions               5.1:1   */
+  --ink-faint:      #87867f;  /* decorative only — 3.5:1, never body text */
+
+  --rule:           #e5e3dc;  /* hairlines                                */
+  --rule-strong:    #d6d3c8;
+
+  /* Claude's clay accent is 2.96:1 on ivory — it fails AA, so it is used
+     only for non-text decoration. Links take the darkened tint instead. */
+  --accent:         #d97757;  /* decorative: underlines, rules, marks     */
+  --accent-text:    #a34f2a;  /* link text                        5.4:1   */
+  --accent-hover:   #8a4223;  /* link hover                       7.1:1   */
+  --accent-wash:    #f7ede8;  /* tinted backgrounds                       */
+
+  /* --- Type scale ------------------------------------------------------
+     Fluid between the small and large breakpoints via clamp(), so there is
+     no jump at a media query and no need to restate sizes per breakpoint. */
+  --step--1: clamp(0.83rem, 0.80rem + 0.15vw, 0.89rem);
+  --step-0:  clamp(1.00rem, 0.96rem + 0.20vw, 1.09rem);
+  --step-1:  clamp(1.20rem, 1.14rem + 0.30vw, 1.36rem);
+  --step-2:  clamp(1.44rem, 1.34rem + 0.50vw, 1.70rem);
+  --step-3:  clamp(1.73rem, 1.57rem + 0.80vw, 2.13rem);
+  --step-4:  clamp(2.07rem, 1.83rem + 1.20vw, 2.66rem);
+
+  --leading-tight: 1.2;
+  --leading-snug:  1.35;
+  --leading-body:  1.65;  /* long-form prose wants a generous measure     */
+
+  /* --- Spacing (4px base) --------------------------------------------- */
+  --space-1:  0.25rem;
+  --space-2:  0.5rem;
+  --space-3:  0.75rem;
+  --space-4:  1rem;
+  --space-5:  1.5rem;
+  --space-6:  2rem;
+  --space-7:  3rem;
+  --space-8:  4rem;
+  --space-9:  6rem;
+
+  /* --- Layout ----------------------------------------------------------
+     --measure caps line length at roughly 70 characters, which is the
+     single highest-leverage readability control on a text-heavy site. */
+  --measure:      68ch;
+  --content-max:  72rem;
+  --sidebar-w:    15rem;
+  --gutter:       clamp(1.25rem, 4vw, 3rem);
+
+  --radius:       6px;
+  --radius-lg:    12px;
+  --transition:   150ms ease;
+}
+
+/* Honour an explicit OS dark-mode preference. The same tokens are
+   redefined, so nothing downstream needs to know about the theme. */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --surface:        #1f1e1d;
+    --surface-sunk:   #262524;
+    --surface-raised: #2a2927;
+
+    --ink:            #f5f4ef;
+    --ink-body:       #e8e6df;
+    --ink-muted:      #a8a69d;
+    --ink-faint:      #82807a;
+
+    --rule:           #383634;
+    --rule-strong:    #4a4845;
+
+    --accent:         #d97757;
+    --accent-text:    #e89b7f;  /* lightened for contrast on dark ground */
+    --accent-hover:   #f2b79f;
+    --accent-wash:    #33241d;
+  }
+}

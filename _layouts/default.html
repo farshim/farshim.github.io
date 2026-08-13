@@ -1,31 +1,52 @@
----
-layout: compress
----
-
-{% include base_path %}
-
 <!doctype html>
-<html lang="{{ site.locale | slice: 0,2 }}" class="no-js">
-  <head>
-    {% include head.html %}
-    {% include head/custom.html %}
-  </head>
+<html lang="{{ site.locale | default: 'en' | slice: 0, 2 }}">
+<head>
+  {%- include head.html %}
+</head>
+<body>
+  <div class="page-wrap">
+    <a class="skip-link" href="#main">Skip to content</a>
 
-  <body>
+    {%- include masthead.html %}
 
-    {% include browser-upgrade.html %}
-    {% include masthead.html %}
+    <main class="main" id="main">
+      {{ content }}
+    </main>
 
-    {{ content }}
+    {%- include footer.html %}
+  </div>
 
-    <div class="page__footer">
-      <footer>
-        {% include footer/custom.html %}
-        {% include footer.html %}
-      </footer>
-    </div>
+  <script>
+    // Mobile nav disclosure. Replaces jQuery + the "greedy nav" plugin.
+    (function () {
+      var toggle = document.querySelector('.nav__toggle');
+      var list = document.getElementById('nav-list');
+      if (!toggle || !list) return;
 
-    {% include scripts.html %}
+      function setOpen(open) {
+        toggle.setAttribute('aria-expanded', String(open));
+        list.setAttribute('data-open', String(open));
+      }
 
-  </body>
+      toggle.addEventListener('click', function () {
+        setOpen(toggle.getAttribute('aria-expanded') !== 'true');
+      });
+
+      // Close on Escape, and return focus to the control that opened it.
+      document.addEventListener('keydown', function (e) {
+        if (e.key === 'Escape' && toggle.getAttribute('aria-expanded') === 'true') {
+          setOpen(false);
+          toggle.focus();
+        }
+      });
+
+      // Reset state when the viewport grows past the mobile breakpoint,
+      // so the panel does not stay stuck open on rotate/resize.
+      var mq = window.matchMedia('(min-width: 40rem)');
+      (mq.addEventListener ? mq.addEventListener.bind(mq, 'change') : mq.addListener.bind(mq))(
+        function (e) { if (e.matches) setOpen(false); }
+      );
+    })();
+  </script>
+</body>
 </html>

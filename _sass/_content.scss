@@ -1,0 +1,167 @@
+/* ==========================================================================
+   Content components
+   ========================================================================== */
+
+.page-title {
+  font-size: var(--step-3);
+  margin-block-end: var(--space-6);
+  padding-block-end: var(--space-4);
+  border-block-end: 1px solid var(--rule);
+}
+
+/* Section headings inside a page, e.g. "Publications", "Co-authors". */
+.section-title {
+  font-size: var(--step-2);
+  margin-block: var(--space-8) var(--space-5);
+}
+.section-title:first-child { margin-block-start: 0; }
+
+/* ==========================================================================
+   Publication list
+   Replaces the old <li>-without-<ul> markup padded with &nbsp; and <br>.
+   Each entry is a real list item; the parts are styled, not spaced by hand.
+   ========================================================================== */
+
+.pubs {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-5);
+  max-width: var(--measure);
+}
+
+.pubs li { margin: 0; }
+
+.pub {
+  display: grid;
+  gap: var(--space-1);
+  padding-inline-start: var(--space-4);
+  border-inline-start: 2px solid transparent;
+  transition: border-color var(--transition);
+}
+
+/* The clay accent appears on hover as a marginal rule — decorative, so its
+   low contrast against the ground is not an accessibility concern. */
+.pub:hover { border-inline-start-color: var(--accent); }
+
+.pub__authors {
+  font-size: var(--step--1);
+  color: var(--ink-muted);
+}
+
+.pub__title {
+  font-family: var(--font-serif);
+  font-size: var(--step-1);
+  line-height: var(--leading-snug);
+  color: var(--ink);
+  text-decoration-color: color-mix(in srgb, var(--accent) 55%, transparent);
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.18em;
+}
+.pub__title:hover {
+  color: var(--accent-hover);
+  text-decoration-color: currentColor;
+}
+
+/* Venue set in small caps — the typographic convention for a citation
+   line, and it distinguishes the venue without another colour. */
+.pub__venue {
+  font-size: var(--step--1);
+  color: var(--ink-muted);
+  font-variant-caps: all-small-caps;
+  letter-spacing: 0.06em;
+}
+
+/* Multiple venues (journal + conference version) stack tightly. */
+.pub__venue + .pub__venue { margin-block-start: calc(-1 * var(--space-1)); }
+
+/* ==========================================================================
+   Generic entry list — teaching, service, co-authors
+   ========================================================================== */
+
+.entries {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-4);
+  max-width: var(--measure);
+}
+
+.entries li { margin: 0; }
+
+.entry {
+  display: grid;
+  gap: var(--space-1);
+}
+
+.entry__name {
+  font-family: var(--font-serif);
+  font-size: var(--step-1);
+  line-height: var(--leading-snug);
+}
+
+.entry__meta {
+  font-size: var(--step--1);
+  color: var(--ink-muted);
+}
+
+/* Inline comma-separated link runs, e.g. the co-author list or slide sets.
+   Wrapping is handled by the browser; no <br> or &nbsp; padding. */
+.inline-links {
+  max-width: var(--measure);
+  color: var(--ink-muted);
+}
+
+/* Year-grouped service entries. */
+.year-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-4);
+  max-width: var(--measure);
+}
+.year-list li { margin: 0; }
+
+.year-list__row {
+  display: grid;
+  grid-template-columns: 4rem minmax(0, 1fr);
+  gap: var(--space-4);
+  align-items: baseline;
+}
+
+.year-list__year {
+  font-variant-numeric: tabular-nums;
+  font-size: var(--step--1);
+  color: var(--ink-faint);
+  font-weight: 500;
+}
+
+@media (max-width: 30rem) {
+  .year-list__row { grid-template-columns: 1fr; gap: var(--space-1); }
+}
+
+/* ==========================================================================
+   Utilities
+   ========================================================================== */
+
+.visually-hidden {
+  position: absolute;
+  width: 1px; height: 1px;
+  padding: 0; margin: -1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+}
+
+.lede {
+  font-size: var(--step-1);
+  line-height: var(--leading-snug);
+  color: var(--ink-body);
+  max-width: var(--measure);
+}

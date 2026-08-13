@@ -1,31 +1,66 @@
-A Github Pages template for academic websites. This was forked (then detached) by [Stuart Geiger](https://github.com/staeiou) from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/), which is © 2016 Michael Rose and released under the MIT License. See LICENSE.md.
+# farshim.github.io
 
-I think I've got things running smoothly and fixed some major bugs, but feel free to file issues or make pull requests if you want to improve the generic template / theme.
+Personal academic site for Pooya Farshim, built with Jekyll and served by GitHub Pages.
 
-### Note: if you are using this repo and now get a notification about a security vulnerability, delete the Gemfile.lock file. 
+Originally a fork of [AcademicPages](https://github.com/academicpages/academicpages.github.io)
+(itself a fork of [Minimal Mistakes](https://github.com/mmistakes/minimal-mistakes)).
+The theme layer has since been replaced with a hand-written one; no vendored
+framework code remains.
 
-# Instructions
+## Local development
 
-1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
-1. Fork [this repository](https://github.com/academicpages/academicpages.github.io) by clicking the "fork" button in the top right. 
-1. Go to the repository's settings (rightmost item in the tabs that start with "Code", should be below "Unwatch"). Rename the repository "[your GitHub username].github.io", which will also be your website's URL.
-1. Set site-wide configuration and create content & metadata (see below -- also see [this set of diffs](http://archive.is/3TPas) showing what files were changed to set up [an example site](https://getorg-testacct.github.io) for a user with the username "getorg-testacct")
-1. Upload any files (like PDFs, .zip files, etc.) to the files/ directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.  
-1. Check status by going to the repository settings, in the "GitHub pages" section
-1. (Optional) Use the Jupyter notebooks or python scripts in the `markdown_generator` folder to generate markdown files for publications and talks from a TSV file.
+```sh
+bundle install
+bundle exec jekyll serve --config _config.yml,_config.dev.yml
+```
 
-See more info at https://academicpages.github.io/
+Then open <http://localhost:4000>.
 
-## To run locally (not on GitHub Pages, to serve on your own computer)
+## Layout of the repository
 
-1. Clone the repository and made updates as detailed above
-1. Make sure you have ruby-dev, bundler, and nodejs installed: `sudo apt install ruby-dev ruby-bundler nodejs`
-1. Run `bundle clean` to clean up the directory (no need to run `--force`)
-1. Run `bundle install` to install ruby dependencies. If you get errors, delete Gemfile.lock and try again.
-1. Run `bundle exec jekyll liveserve` to generate the HTML and serve it from `localhost:4000` the local server will automatically rebuild and refresh the pages on change.
+| Path | Purpose |
+|---|---|
+| `_pages/` | All site content. One file per page; each declares its own `permalink`. |
+| `_layouts/` | `default.html` (page shell) and `page.html` (content + optional sidebar). |
+| `_includes/` | `head`, `masthead`, `profile`, `footer`. |
+| `_sass/` | `_tokens`, `_base`, `_layout`, `_content`, `_print`. |
+| `assets/css/main.scss` | Imports the five partials. The only stylesheet. |
+| `_data/navigation.yml` | Main nav. `url` must match the target page's `permalink`. |
 
-# Changelog -- bugfixes and enhancements
+There are **no collections**. Every page is written by hand in `_pages/`, so
+adding a publication means editing `_pages/research.md` directly.
 
-There is one logistical issue with a ready-to-fork template theme like academic pages that makes it a little tricky to get bug fixes and updates to the core theme. If you fork this repository, customize it, then pull again, you'll probably get merge conflicts. If you want to save your various .yml configuration files and markdown files, you can delete the repository and fork it again. Or you can manually patch. 
+## Design system
 
-To support this, all changes to the underlying code appear as a closed issue with the tag 'code change' -- get the list [here](https://github.com/academicpages/academicpages.github.io/issues?q=is%3Aclosed%20is%3Aissue%20label%3A%22code%20change%22%20). Each issue thread includes a comment linking to the single commit or a diff across multiple commits, so those with forked repositories can easily identify what they need to patch.
+Tokens live in [`_sass/_tokens.scss`](_sass/_tokens.scss) as CSS custom
+properties, so the palette can be changed in one place and is overridden
+wholesale for dark mode and for print.
+
+- **Type** — system-font stacks only: a transitional serif for headings and
+  titles, a neutral sans for body and UI. No web fonts, so no extra requests
+  and no layout shift. Sizes are fluid via `clamp()` rather than stepped at
+  breakpoints.
+- **Colour** — warm ivory ground (`#faf9f5`) with near-black ink. Every token
+  used for text meets WCAG AA in both light and dark themes. Note that the
+  clay accent `#d97757` is only 2.96:1 on the ivory ground, so it is reserved
+  for decoration (rules, hover borders, underline tints) and never used for
+  text; links use `--accent-text` (`#a34f2a`, 5.37:1).
+- **Layout** — CSS Grid and Flexbox. Line length is capped by `--measure`
+  (~68 characters). The two-column layout collapses to one below `56rem`, and
+  the nav becomes a disclosure panel below `40rem`.
+
+## Adding a page
+
+Create a file in `_pages/` with front matter:
+
+```yaml
+---
+layout: page
+title: "Title"
+permalink: /some-path/
+author_profile: true   # false drops the sidebar and centres the content
+mathjax: true          # optional; loads MathJax 3 only on this page
+---
+```
+
+Then add it to `_data/navigation.yml` if it belongs in the main nav.

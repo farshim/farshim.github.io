@@ -1,18 +1,48 @@
 /* ==========================================================================
-   PRINT STYLES
-   ========================================================================== */
-
-/*
-   Hide the following elements on print
+   Print — an academic page gets printed; make it produce a clean document.
    ========================================================================== */
 
 @media print {
-  .masthead,
-  .toc,
-  .page__share,
-  .page__related,
-  .ads,
-  .page__footer {
-    display: none;
+  :root {
+    --surface: #fff;
+    --surface-sunk: #fff;
+    --ink: #000;
+    --ink-body: #000;
+    --ink-muted: #333;
+    --rule: #ccc;
+    --accent-text: #000;
   }
+
+  .masthead,
+  .nav__toggle,
+  .skip-link,
+  .footer {
+    display: none !important;
+  }
+
+  body {
+    font-size: 11pt;
+    line-height: 1.45;
+  }
+
+  .main { padding-block: 0; }
+
+  .main__grid {
+    display: block;
+  }
+
+  .sidebar { position: static; margin-block-end: 1.5rem; }
+
+  .profile__avatar { display: none; }
+
+  /* Expand link targets so a printed copy stays useful. */
+  a[href^="http"]::after {
+    content: " (" attr(href) ")";
+    font-size: 8.5pt;
+    color: #555;
+    word-break: break-all;
+  }
+
+  .pub, .entry, h2, h3 { break-inside: avoid; }
+  h2, h3 { break-after: avoid; }
 }

@@ -1,0 +1,25 @@
+---
+layout: default
+---
+{%- comment -%}
+  Single content layout for every page. `author_profile: false` in front
+  matter drops the sidebar and centres the content column.
+{%- endcomment -%}
+
+<div class="shell">
+  <div class="main__grid{% unless page.author_profile %} main__grid--full{% endunless %}">
+    {%- if page.author_profile %}
+      {%- include profile.html %}
+    {%- endif %}
+
+    <article class="content">
+      {%- if page.title and page.title != "" %}
+        <h1 class="page-title">{{ page.title }}</h1>
+      {%- endif %}
+
+      <div class="flow">
+        {{ content }}
+      </div>
+    </article>
+  </div>
+</div>

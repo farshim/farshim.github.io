@@ -1,13 +1,7 @@
-# Develop override settings
+# Local development overrides.
+#   bundle exec jekyll serve --config _config.yml,_config.dev.yml
 
-url: http://localhost:4000
-
-analytics:
-  provider: false
-
-comments:
-  disqus:
-    shortname            : "mmistakes-dev"
+url  : http://localhost:4000
 
 sass:
-  style: expanded
+  style: expanded   # readable CSS while developing

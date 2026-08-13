@@ -1,21 +1,61 @@
-{% include base_path %}
+{%- assign page_title = page.title | default: site.title | strip_html | strip_newlines | escape_once -%}
+{%- if page.title and page.title != "" -%}
+  {%- assign full_title = page.title | append: " " | append: site.title_separator | append: " " | append: site.title | strip_html | escape_once -%}
+{%- else -%}
+  {%- assign full_title = site.title | append: " " | append: site.title_separator | append: " " | append: site.description -%}
+{%- endif -%}
+{%- assign description = page.description | default: page.excerpt | default: site.description | strip_html | strip_newlines | truncate: 200 | escape_once -%}
+{%- assign canonical = page.url | replace: "index.html", "" | absolute_url -%}
 
 <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 
-{% include seo.html %}
+<title>{{ full_title }}</title>
+<meta name="description" content="{{ description }}">
+<meta name="author" content="{{ site.author.name }}">
+<link rel="canonical" href="{{ canonical }}">
 
-<link href="{% if site.atom_feed.path %}{{ site.atom_feed.path }}{% else %}{{ base_path }}/feed.xml{% endif %}" type="application/atom+xml" rel="alternate" title="{{ site.title }} Feed">
+<!-- Open Graph -->
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="{{ site.title }}">
+<meta property="og:title" content="{{ page_title }}">
+<meta property="og:description" content="{{ description }}">
+<meta property="og:url" content="{{ canonical }}">
+<meta property="og:image" content="{{ '/images/profile.jpg' | absolute_url }}">
+<meta name="twitter:card" content="summary">
 
-<!-- http://t.co/dKP3o1e -->
-<meta name="HandheldFriendly" content="True">
-<meta name="MobileOptimized" content="320">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- Icons. A single SVG favicon; modern browsers need nothing else. -->
+<link rel="icon" href="{{ '/images/favicon.svg' | relative_url }}" type="image/svg+xml">
+<link rel="apple-touch-icon" href="{{ '/images/profile.jpg' | relative_url }}">
+<meta name="theme-color" content="#faf9f5" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#1f1e1d" media="(prefers-color-scheme: dark)">
 
-<script>
-  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+<link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": {{ site.author.name | jsonify }},
+  "url": {{ site.url | append: site.baseurl | jsonify }},
+  "image": {{ '/images/profile.jpg' | absolute_url | jsonify }},
+  "jobTitle": {{ site.author.bio | jsonify }},
+  "worksFor": { "@type": "Organization", "name": {{ site.author.employer | jsonify }} },
+  "sameAs": [
+    {{ site.author.googlescholar | jsonify }},
+    {{ site.author.DBLP | jsonify }},
+    {{ "https://www.linkedin.com/in/" | append: site.author.linkedin | jsonify }}
+  ]
+}
 </script>
 
-<!-- For all browsers -->
-<link rel="stylesheet" href="{{ base_path }}/assets/css/main.css">
-
-<meta http-equiv="cleartype" content="on">
+{%- if page.mathjax %}
+<!-- MathJax 3, loaded only on pages that opt in with `mathjax: true`. -->
+<script>
+  window.MathJax = {
+    tex: { inlineMath: [['$', '$'], ['\\(', '\\)']], tags: 'ams' },
+    options: { skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre'] }
+  };
+</script>
+<script async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+{%- endif %}

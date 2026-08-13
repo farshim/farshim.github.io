@@ -1,315 +1,168 @@
 /* ==========================================================================
-   BASE ELEMENTS
+   Base elements — modern reset plus element defaults
    ========================================================================== */
+
+*, *::before, *::after { box-sizing: border-box; }
+
+/* Margin is applied deliberately by the flow rules below, not inherited
+   from UA defaults. */
+body, h1, h2, h3, h4, p, figure, blockquote, dl, dd, ul, ol {
+  margin: 0;
+}
+
 html {
-  /* sticky footer fix */
-  position: relative;
-  min-height: 100%;
+  -webkit-text-size-adjust: 100%;   /* stop iOS inflating text in landscape */
+  scroll-behavior: smooth;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
 }
 
 body {
-  margin: 0;
-  padding: 0;
-  padding-bottom: 9em;
-  color: $text-color;
-  font-family: $global-font-family;
-  line-height: 1.5;
-
-  &.overflow--hidden {
-    /* when primary navigation is visible, the content in the background won't scroll */
-    overflow: hidden;
-  }
+  min-height: 100vh;
+  background: var(--surface);
+  color: var(--ink-body);
+  font-family: var(--font-sans);
+  font-size: var(--step-0);
+  line-height: var(--leading-body);
+  font-synthesis-weight: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
+/* --- Headings ----------------------------------------------------------
+   Serif, per the claude.com pairing. Weight is kept moderate; the serif
+   and the size carry the hierarchy, so bold is not also needed. */
 h1, h2, h3, h4, h5, h6 {
-  margin: 2em 0 0.5em;
-  line-height: 1.2;
-  font-family: $header-font-family;
-  font-weight: bold;
+  font-family: var(--font-serif);
+  color: var(--ink);
+  line-height: var(--leading-tight);
+  font-weight: 600;
+  letter-spacing: -0.011em;
+  text-wrap: balance;   /* avoid one-word orphan lines in headings */
 }
 
-h1 {
-  margin-top: 0;
-  font-size: $type-size-3;
-}
+h1 { font-size: var(--step-4); letter-spacing: -0.021em; }
+h2 { font-size: var(--step-3); letter-spacing: -0.017em; }
+h3 { font-size: var(--step-2); }
+h4 { font-size: var(--step-1); }
+h5, h6 { font-size: var(--step-0); }
 
-h2 {
-  font-size: $type-size-4;
-}
+/* --- Flow spacing ------------------------------------------------------
+   One rule instead of per-element margins: every element gets top margin
+   only when it follows a sibling, so no leading/trailing gaps to strip. */
+.flow > * + * { margin-block-start: var(--flow-space, var(--space-4)); }
 
-h3 {
-  font-size: $type-size-5;
-}
+.flow > h2 { --flow-space: var(--space-7); }
+.flow > h3 { --flow-space: var(--space-6); }
+.flow > h4 { --flow-space: var(--space-5); }
+.flow > * + h2,
+.flow > * + h3 { --flow-space: var(--space-7); }
 
-h4 {
-  font-size: $type-size-6;
-}
+p { text-wrap: pretty; }
 
-h5 {
-  font-size: $type-size-6;
-}
-
-h6 {
-  font-size: $type-size-6;
-}
-
-small, .small {
-  font-size: $type-size-6;
-}
-
-p {
-  margin-bottom: 1.3em;
-}
-
-u,
-ins {
-  text-decoration: none;
-  border-bottom: 1px solid $text-color;
-  a {
-    color: inherit;
-  }
-}
-
-del a {
-  color: inherit;
-}
-
-/* reduce orphans and widows when printing */
-
-p, pre, blockquote, ul, ol, dl, figure, table, fieldset {
-  orphans: 3;
-  widows: 3;
-}
-
-/* abbreviations */
-
-abbr[title],
-abbr[data-original-title] {
-  text-decoration: none;
-  cursor: help;
-  border-bottom: 1px dotted $text-color;
-}
-
-/* blockquotes */
-
-blockquote {
-  margin: 2em 1em 2em 0;
-  padding-left: 1em;
-  padding-right: 1em;
-  font-style: italic;
-  border-left: 0.25em solid $primary-color;
-
-  cite {
-    font-style: italic;
-
-    &:before {
-      content: "\2014";
-      padding-right: 5px;
-    }
-  }
-}
-
-/* links */
-
+/* --- Links -------------------------------------------------------------
+   Underlines are kept (never `text-decoration: none` on body links) but
+   thinned and offset so a dense publication list does not look striped. */
 a {
-  &:focus {
-    @extend %tab-focus;
-  }
-
-  &:hover,
-  &:active {
-    outline: 0;
-  }
+  color: var(--accent-text);
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.15em;
+  text-decoration-color: color-mix(in srgb, var(--accent-text) 35%, transparent);
+  transition: color var(--transition), text-decoration-color var(--transition);
 }
 
-/* code */
+a:hover {
+  color: var(--accent-hover);
+  text-decoration-color: currentColor;
+}
 
-tt, code, kbd, samp, pre {
-  font-family: $monospace;
+/* Visible focus for keyboard users, suppressed for mouse clicks. */
+a:focus-visible,
+button:focus-visible,
+[tabindex]:focus-visible {
+  outline: 2px solid var(--accent-text);
+  outline-offset: 3px;
+  border-radius: 2px;
+}
+
+/* --- Lists -------------------------------------------------------------- */
+ul, ol { padding-inline-start: var(--space-5); }
+li + li { margin-block-start: var(--space-2); }
+
+/* --- Media -------------------------------------------------------------- */
+img, picture, svg, video {
+  display: block;
+  max-inline-size: 100%;
+  height: auto;
+}
+
+/* --- Code --------------------------------------------------------------- */
+code, kbd, samp, pre {
+  font-family: var(--font-mono);
+  font-size: 0.9em;
+}
+
+code {
+  background: var(--surface-sunk);
+  padding: 0.15em 0.4em;
+  border-radius: var(--radius);
 }
 
 pre {
-  overflow-x: auto; /* add scrollbars to wide code blocks*/
+  background: var(--surface-sunk);
+  border: 1px solid var(--rule);
+  border-radius: var(--radius);
+  padding: var(--space-4);
+  overflow-x: auto;          /* long lines scroll here, not on <body> */
+  line-height: var(--leading-snug);
+
+  code { background: none; padding: 0; }
 }
 
-p > code,
-a > code,
-li > code,
-figcaption > code,
-td > code {
-  padding-top: 0.1rem;
-  padding-bottom: 0.1rem;
-  font-size: $type-size-6;
-  background: $code-background-color;
-  border: 1px solid $lighter-gray;
-  border-radius: $border-radius;
-  box-shadow: $box-shadow;
-
-  &:before, &:after {
-    letter-spacing: -0.2em;
-    content: "\00a0"; /* non-breaking space*/
-  }
+/* --- Quotes ------------------------------------------------------------- */
+blockquote {
+  border-inline-start: 3px solid var(--accent);
+  padding-inline-start: var(--space-5);
+  color: var(--ink-muted);
+  font-style: italic;
 }
 
-/* horizontal rule */
+/* --- Tables ------------------------------------------------------------- */
+.table-wrap { overflow-x: auto; }   /* wide tables scroll in their own box */
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: var(--step--1);
+}
+
+th, td {
+  padding: var(--space-3);
+  text-align: start;
+  border-block-end: 1px solid var(--rule);
+}
+
+th {
+  font-weight: 600;
+  color: var(--ink);
+}
 
 hr {
-  display: block;
-  margin: 1em 0;
   border: 0;
-  border-top: 1px solid $border-color;
+  border-block-start: 1px solid var(--rule);
+  margin-block: var(--space-7);
 }
 
-/* lists */
-
-ul li,
-ol li {
-  margin-bottom: 0.5em;
-}
-
-li ul,
-li ol {
-  margin-top: 0.5em;
-}
-
-/*
-   Media and embeds
-   ========================================================================== */
-
-/* Figures and images */
-
-figure {
-  display: -webkit-box;
-  display: flex;
-  -webkit-box-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: start;
-          align-items: flex-start;
-  flex-wrap: wrap;
-  margin: 2em 0;
-
-  img,
-  iframe,
-  .fluid-width-video-wrapper {
-    margin-bottom: 1em;
-  }
-
-  img {
-    width: 100%;
-    border-radius: $border-radius;
-    -webkit-transition: $global-transition;
-    transition: $global-transition;
-  }
-
-  > a {
-    display: block;
-  }
-
-  &.half {
-    > a,
-    > img {
-      @include breakpoint($small) {
-        width: calc(50% - 0.5em);
-      }
-    }
-
-    figcaption {
-      width: 100%;
-    }
-  }
-
-  &.third {
-    > a,
-    > img {
-      @include breakpoint($small) {
-        width: calc(33.3333% - 0.5em);
-      }
-    }
-
-    figcaption {
-      width: 100%;
-    }
-  }
-}
-
-/* Figure captions */
-
-figcaption {
-  margin-bottom: 0.5em;
-  color: mix(#fff, $text-color, 25%);
-  font-family: $caption-font-family;
-  font-size: $type-size-6;
-
-  a {
-    color: inherit;
-    text-decoration: none;
-    border-bottom: 1px solid $light-gray;
-    -webkit-transition: $global-transition;
-    transition: $global-transition;
-
-    &:hover {
-      color: #000;
-      border-bottom-color: #000;
-    }
-  }
-}
-
-
-/* Fix IE9 SVG bug */
-
-svg:not(:root) {
-  overflow: hidden;
-}
-
-
-/*
-   Navigation lists
-   ========================================================================== */
-
-/**
- * Removes margins, padding, and bullet points from navigation lists
- *
- * Example usage:
- * <nav>
- *    <ul>
- *      <li><a href="#link-1">Link 1</a></li>
- *      <li><a href="#link-2">Link 2</a></li>
- *      <li><a href="#link-3">Link 3</a></li>
- *    </ul>
- *  </nav>
- */
-
-nav {
-  ul {
-    margin: 0;
-    padding: 0;
-  }
-
-  li {
-    list-style: none;
-  }
-
-  a {
-    text-decoration: none;
-  }
-
-  /* override white-space for nested lists */
-  ul li,
-  ol li {
-    margin-bottom: 0;
-  }
-
-  li ul,
-  li ol {
-    margin-top: 0;
-  }
-}
-
-/*
-   Global animation transition
-   ========================================================================== */
-
-b, i, strong, em, blockquote, p, q, span, figure, img, h1, h2, header, input, a, tr, td, form button, input[type="submit"], .btn, .highlight, .archive__item-teaser {
-  -webkit-transition: $global-transition;
-  transition: $global-transition;
+::selection {
+  background: var(--accent-wash);
+  color: var(--ink);
 }

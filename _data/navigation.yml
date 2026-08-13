@@ -1,14 +1,11 @@
-# main links links
+# Main navigation. `url` must match the `permalink` in the corresponding
+# _pages file; masthead.html compares page.url against it to set aria-current.
 main:
   - title: "Research"
-    url: /publications/ 
-
+    url: /publications/
   - title: "Teaching"
-    url: /teaching/    
-    
+    url: /teaching/
   - title: "Service"
     url: /portfolio/
-        
   - title: "Contact"
     url: /contact/
-  

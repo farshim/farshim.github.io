@@ -1,0 +1,13 @@
+# Jekyll build output and caches
+_site/
+.jekyll-cache/
+.jekyll-metadata
+.sass-cache/
+
+# Bundler
+Gemfile.lock
+vendor/
+.bundle/
+
+# macOS
+.DS_Store

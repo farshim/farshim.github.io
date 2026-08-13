@@ -1,0 +1,289 @@
+/* ==========================================================================
+   Layout — page shell, masthead, sidebar, footer
+   CSS Grid and Flexbox throughout; this replaces the Susy float grid.
+   ========================================================================== */
+
+.page-wrap {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;   /* sticky footer without the old padding-bottom hack */
+}
+
+.shell {
+  width: 100%;
+  max-width: var(--content-max);
+  margin-inline: auto;
+  padding-inline: var(--gutter);
+}
+
+/* Skip link — visually hidden until focused. */
+.skip-link {
+  position: absolute;
+  inset-block-start: var(--space-2);
+  inset-inline-start: var(--space-2);
+  z-index: 100;
+  padding: var(--space-2) var(--space-4);
+  background: var(--ink);
+  color: var(--surface);
+  border-radius: var(--radius);
+  text-decoration: none;
+  transform: translateY(-200%);
+}
+.skip-link:focus { transform: translateY(0); }
+
+/* ==========================================================================
+   Masthead
+   ========================================================================== */
+
+.masthead {
+  position: sticky;
+  inset-block-start: 0;
+  z-index: 50;
+  background: color-mix(in srgb, var(--surface) 85%, transparent);
+  backdrop-filter: saturate(180%) blur(12px);
+  border-block-end: 1px solid var(--rule);
+}
+
+.masthead__inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-4);
+  min-height: 4rem;
+}
+
+.masthead__title {
+  font-family: var(--font-serif);
+  font-size: var(--step-1);
+  font-weight: 600;
+  color: var(--ink);
+  text-decoration: none;
+  letter-spacing: -0.015em;
+  white-space: nowrap;
+}
+.masthead__title:hover { color: var(--accent-text); }
+
+.nav__list {
+  display: flex;
+  align-items: center;
+  gap: var(--space-5);
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.nav__list li { margin: 0; }
+
+.nav__link {
+  color: var(--ink-muted);
+  text-decoration: none;
+  font-size: var(--step--1);
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  font-weight: 500;
+  padding-block: var(--space-2);
+  position: relative;
+}
+
+.nav__link:hover { color: var(--ink); }
+
+/* Current page marked with the clay accent. Decorative underline only —
+   the accessible signal is aria-current on the anchor. */
+.nav__link[aria-current="page"] {
+  color: var(--ink);
+}
+.nav__link[aria-current="page"]::after {
+  content: "";
+  position: absolute;
+  inset-block-end: 0;
+  inset-inline: 0;
+  height: 2px;
+  background: var(--accent);
+  border-radius: 1px;
+}
+
+/* --- Mobile nav toggle --------------------------------------------------
+   Hidden on desktop; the list becomes a disclosure panel below 40rem. */
+.nav__toggle {
+  display: none;
+  align-items: center;
+  justify-content: center;
+  width: 2.5rem;
+  height: 2.5rem;
+  padding: 0;
+  background: none;
+  border: 1px solid var(--rule-strong);
+  border-radius: var(--radius);
+  color: var(--ink);
+  cursor: pointer;
+}
+.nav__toggle:hover { background: var(--surface-sunk); }
+.nav__toggle svg { width: 1.25rem; height: 1.25rem; }
+.nav__toggle .icon-close { display: none; }
+.nav__toggle[aria-expanded="true"] .icon-open  { display: none; }
+.nav__toggle[aria-expanded="true"] .icon-close { display: block; }
+
+@media (max-width: 40rem) {
+  .nav__toggle { display: inline-flex; }
+
+  .nav__list {
+    display: none;
+    position: absolute;
+    inset-block-start: 100%;
+    inset-inline: 0;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 0;
+    padding: var(--space-2) var(--gutter) var(--space-4);
+    background: var(--surface);
+    border-block-end: 1px solid var(--rule);
+  }
+  .nav__list[data-open="true"] { display: flex; }
+
+  .nav__link {
+    display: block;
+    padding-block: var(--space-3);
+    font-size: var(--step-0);
+    text-transform: none;
+    letter-spacing: 0;
+    border-block-end: 1px solid var(--rule);
+  }
+  .nav__link[aria-current="page"]::after { display: none; }
+  .nav__link[aria-current="page"] { color: var(--accent-text); }
+}
+
+/* ==========================================================================
+   Main grid — sidebar + content
+   ========================================================================== */
+
+.main {
+  flex: 1;
+  padding-block: var(--space-8) var(--space-9);
+}
+
+.main__grid {
+  display: grid;
+  gap: var(--space-8) var(--space-7);
+  align-items: start;
+  grid-template-columns: 1fr;   /* single column is the mobile default */
+}
+
+/* Two columns once there is room for them. */
+@media (min-width: 56rem) {
+  .main__grid {
+    grid-template-columns: var(--sidebar-w) minmax(0, 1fr);
+  }
+
+  .sidebar {
+    position: sticky;
+    inset-block-start: 6rem;   /* clears the sticky masthead */
+  }
+}
+
+/* When a page has no sidebar, centre the content column. */
+.main__grid--full { grid-template-columns: minmax(0, 1fr); }
+
+.content { min-width: 0; }      /* lets overflow-x children scroll properly */
+.content > .flow { max-width: var(--measure); }
+
+/* ==========================================================================
+   Author profile (sidebar)
+   ========================================================================== */
+
+.profile {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-4);
+}
+
+.profile__avatar {
+  width: 8.5rem;
+  height: 8.5rem;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 1px solid var(--rule);
+}
+
+.profile__name {
+  font-size: var(--step-1);
+  margin: 0;
+}
+
+.profile__bio {
+  color: var(--ink-muted);
+  font-size: var(--step--1);
+  margin: 0;
+}
+
+.profile__links {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+  font-size: var(--step--1);
+  border-block-start: 1px solid var(--rule);
+  padding-block-start: var(--space-4);
+}
+.profile__links li { margin: 0; }
+
+.profile__link {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-2);
+  color: var(--ink-muted);
+  text-decoration: none;
+}
+.profile__link:hover { color: var(--accent-text); }
+
+/* Icons are inline SVG, sized in em so they track the text. */
+.profile__link svg,
+.profile__meta svg {
+  width: 1em;
+  height: 1em;
+  flex: none;
+  color: var(--ink-faint);
+}
+/* --accent-text, not --accent: this tints a graphic, and WCAG 1.4.11 wants
+   3:1 for non-text content. --accent is 2.96:1 on the light ground. */
+.profile__link:hover svg { color: var(--accent-text); }
+
+.profile__meta {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+  color: var(--ink-muted);
+}
+
+/* On mobile the profile becomes a compact horizontal card. */
+@media (max-width: 55.999rem) {
+  .profile {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: var(--space-2) var(--space-5);
+    align-items: center;
+  }
+  .profile__avatar { width: 5.5rem; height: 5.5rem; grid-row: span 2; }
+  .profile__name, .profile__bio { grid-column: 2; }
+  .profile__links {
+    grid-column: 1 / -1;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: var(--space-2) var(--space-5);
+    margin-block-start: var(--space-3);
+  }
+}
+
+/* ==========================================================================
+   Footer
+   ========================================================================== */
+
+.footer {
+  border-block-start: 1px solid var(--rule);
+  padding-block: var(--space-6);
+  color: var(--ink-muted);
+  font-size: var(--step--1);
+}
+
+.footer a { color: var(--ink-muted); }
+.footer a:hover { color: var(--accent-text); }
