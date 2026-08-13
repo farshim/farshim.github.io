@@ -33,33 +33,36 @@
     "Liberation Mono", monospace;
 
   /* --- Colour ----------------------------------------------------------
-     Cream ground, near-black ink, a single editorial red — reserved for
-     hover states, current-page indicators, and other interactive or
-     decorative accents, never for resting body text or resting links
-     (which are ink + an underline, so the affordance doesn't rely on
-     color at all). Contrast ratios are against --surface; every value
-     used for resting or hovered text clears WCAG AA (4.5:1). */
-  --surface:        #fdfcf6;  /* page ground                              */
-  --surface-sunk:   #f3f1e7;  /* code blocks, blockquotes, table stripes  */
-  --surface-raised: #ffffff;  /* cards lifted off the ground              */
+     Warm ivory ground rather than pure white: lower glare, and it makes
+     the black text read as ink rather than as a screen.
+     Clay accent is reserved for hover, current-page indicators, and other
+     interactive or decorative accents — never resting body text or resting
+     links (which are ink + an underline, so the affordance doesn't rely on
+     color at all). Contrast ratios are against --surface; every value used
+     for resting or hovered text clears WCAG AA (4.5:1). */
+  --surface:        #faf9f5;  /* page ground                              */
+  --surface-sunk:   #f0eee6;  /* code blocks, blockquotes, table stripes  */
+  --surface-raised: #fffefb;  /* cards lifted off the ground              */
 
-  --ink:            #111111;  /* headings                        18.4:1   */
-  --ink-body:       #171716;  /* body copy, resting links        16.7:1   */
-  --ink-muted:      #5b5952;  /* metadata, captions               6.4:1   */
-  --ink-faint:      #86847c;  /* decorative only — 3.6:1, never body text */
+  --ink:            #141413;  /* headings                        17.5:1   */
+  --ink-body:       #1f1e1d;  /* body copy, resting links        15.8:1   */
+  --ink-muted:      #6c6a64;  /* metadata, captions               5.1:1   */
+  --ink-faint:      #87867f;  /* decorative only — 3.5:1, never body text */
 
-  /* Structural dividers: masthead, section rules, sidebar, footer. Solid
-     black rather than a tinted hairline, replacing any shadow or filled
-     box as the way sections are set apart. */
-  --rule:           #111111;
-  --rule-strong:    #000000;
+  /* Structural dividers: masthead, section rules, sidebar, footer. Kept as
+     a soft hairline rather than solid black, in keeping with the ivory
+     ground — a stark black rule read as too harsh against it. */
+  --rule:           #e5e3dc;
+  --rule-strong:    #d6d3c8;
 
-  /* Editorial red, reserved for hover/current/interactive states and
-     decorative marks — never the resting color of a link or of text. */
-  --accent:         #c4122d;  /* decorative: underlines, rules, marks     */
-  --accent-text:    #c4122d;  /* hover / current-page / interactive       5.9:1 */
-  --accent-hover:   #990e23;  /* hover-on-accent, darker still            8.4:1 */
-  --accent-wash:    #f7e5e2;  /* tinted backgrounds                       */
+  /* Clay accent is 2.96:1 on ivory — it fails AA, so it never carries
+     resting text; it is used only for decoration (underlines, rules,
+     marks) and for the darker tint below, which is what a link turns on
+     hover or when it marks the current page. */
+  --accent:         #d97757;  /* decorative: underlines, rules, marks     */
+  --accent-text:    #a34f2a;  /* hover / current-page / interactive       5.4:1 */
+  --accent-hover:   #8a4223;  /* hover-on-accent, darker still            7.1:1 */
+  --accent-wash:    #f7ede8;  /* tinted backgrounds                       */
 
   /* --- Type scale ------------------------------------------------------
      Fluid between the small and large breakpoints via clamp(), so there is
@@ -107,21 +110,21 @@
    redefined, so nothing downstream needs to know about the theme. */
 @media (prefers-color-scheme: dark) {
   :root {
-    --surface:        #171716;
-    --surface-sunk:   #201f1e;
-    --surface-raised: #232221;
+    --surface:        #1f1e1d;
+    --surface-sunk:   #262524;
+    --surface-raised: #2a2927;
 
-    --ink:            #f7f6f0;
-    --ink-body:       #ece9e1;
-    --ink-muted:      #a8a59c;
-    --ink-faint:      #7d7a72;
+    --ink:            #f5f4ef;
+    --ink-body:       #e8e6df;
+    --ink-muted:      #a8a69d;
+    --ink-faint:      #82807a;
 
-    --rule:           #e8e6df;  /* structural rules invert to near-white */
-    --rule-strong:    #ffffff;
+    --rule:           #383634;
+    --rule-strong:    #4a4845;
 
-    --accent:         #d96576;
-    --accent-text:    #d96576;  /* lightened red — 5.3:1 on the dark ground */
-    --accent-hover:   #e69aa5;
-    --accent-wash:    #3a1c20;
+    --accent:         #d97757;
+    --accent-text:    #e89b7f;  /* lightened for contrast on dark ground */
+    --accent-hover:   #f2b79f;
+    --accent-wash:    #33241d;
   }
 }
