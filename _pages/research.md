@@ -49,7 +49,7 @@ author_profile: true
   <li class="pub">
     <span class="pub__authors">Pyrros Chaidos, Pooya Farshim, Denis Firsov, Dimitar Jetchev, Aggelos Kiayias, Markulf Kohlweiss, and Anca Nitulescu</span>
     <a class="pub__title" href="https://eprint.iacr.org/2026/292">Crossing with Confidence: Formal Analysis and Model Checking of Blockchain Bridges</a>
-    <span class="pub__venue">International Conference on the Theory and Application of Cryptology and Information Security, ASIACRYPT 2026</span>
+    <span class="pub__venue">Theory and Application of Cryptology and Information Security, ASIACRYPT 2026</span>
   </li>
   <li class="pub">
     <span class="pub__authors">Raghav Bhaskar, Pooya Farshim, Matthias Fitzi, and Aggelos Kiayias</span>
@@ -84,7 +84,7 @@ author_profile: true
   <li class="pub">
     <span class="pub__authors">Pooya Farshim and Stefano Tessaro</span>
     <a class="pub__title" href="https://iacr.org/cryptodb/data/paper.php?pubkey=30908">Password Hashing and Preprocessing</a>
-    <span class="pub__venue">International Conference on the Theory and Applications of Cryptographic Techniques, EUROCRYPT 2021</span>
+    <span class="pub__venue">Theory and Applications of Cryptographic Techniques, EUROCRYPT 2021</span>
   </li>
   <li class="pub">
     <span class="pub__authors">Geoffroy Couteau, Pooya Farshim, and Mohammad Mahmoody</span>
@@ -110,7 +110,7 @@ author_profile: true
   <li class="pub">
     <span class="pub__authors">Pooya Farshim, Georg Fuchsbauer, and Alain Passelègue</span>
     <a class="pub__title" href="https://eprint.iacr.org/2018/576">Simpler Constructions of Asymmetric Primitives from Obfuscation</a>
-    <span class="pub__venue">International Conference on Cryptology in India, INDOCRYPT 2020</span>
+    <span class="pub__venue">Cryptology in India, INDOCRYPT 2020</span>
   </li>
   <li class="pub">
     <span class="pub__authors">Aisling Connolly, Pooya Farshim, and Georg Fuchsbauer</span>
@@ -130,7 +130,7 @@ author_profile: true
   <li class="pub">
     <span class="pub__authors">Pooya Farshim, Julia Hesse, Dennis Hofheinz, and Enrique Larraia</span>
     <a class="pub__title" href="https://eprint.iacr.org/2018/011">Graded Encoding Schemes from Obfuscation</a>
-    <span class="pub__venue">International Conference on Practice and Theory of Public-Key Cryptography, PKC 2018</span>
+    <span class="pub__venue">Practice and Theory of Public-Key Cryptography, PKC 2018</span>
   </li>
   <li class="pub">
     <span class="pub__authors">Pooya Farshim, Louiza Khati, and Damien Vergnaud</span>
@@ -150,13 +150,13 @@ author_profile: true
   <li class="pub">
     <span class="pub__authors">Afonso Arriaga, Manuel Barbosa, and Pooya Farshim</span>
     <a class="pub__title" href="https://eprint.iacr.org/2016/018">Private Functional Encryption: Indistinguishability-Based Definitions and Constructions from Obfuscation</a>
-    <span class="pub__venue">International Conference on Cryptology in India, INDOCRYPT 2016</span>
+    <span class="pub__venue">Cryptology in India, INDOCRYPT 2016</span>
   </li>
   <li class="pub">
     <span class="pub__authors">Martin R. Albrecht, Pooya Farshim, Jean-Charles Faugère, Gottfried Herold, and Ludovic Perret</span>
     <a class="pub__title" href="http://eprint.iacr.org/2011/289">Polly Cracker, Revisited</a>
     <span class="pub__venue">Designs, Codes and Cryptography 2016</span>
-    <span class="pub__venue">International Conference on the Theory and Application of Cryptology and Information Security, ASIACRYPT 2011</span>
+    <span class="pub__venue">Theory and Application of Cryptology and Information Security, ASIACRYPT 2011</span>
   </li>
   <li class="pub">
     <span class="pub__authors">Jean Paul Degabriele, Pooya Farshim, and Bertram Poettering</span>
@@ -186,22 +186,22 @@ author_profile: true
   <li class="pub">
     <span class="pub__authors">Paul Baecher, Pooya Farshim, Marc Fischlin, and Martijn Stam</span>
     <a class="pub__title" href="http://eprint.iacr.org/2013/350">Ideal-Cipher (Ir)reducibility for Blockcipher-Based Hash Functions</a>
-    <span class="pub__venue">International Conference on the Theory and Applications of Cryptographic Techniques, EUROCRYPT 2013</span>
+    <span class="pub__venue">Theory and Applications of Cryptographic Techniques, EUROCRYPT 2013</span>
   </li>
   <li class="pub">
     <span class="pub__authors">Pooya Farshim, Benoît Libert, Kenneth G. Paterson, and Elizabeth A. Quaglia</span>
     <a class="pub__title" href="http://eprint.iacr.org/2012/673">Robust Encryption, Revisited</a>
-    <span class="pub__venue">International Conference on Practice and Theory of Public-Key Cryptography, PKC 2013</span>
+    <span class="pub__venue">Practice and Theory of Public-Key Cryptography, PKC 2013</span>
   </li>
   <li class="pub">
     <span class="pub__authors">Manuel Barbosa and Pooya Farshim</span>
     <a class="pub__title" href="http://eprint.iacr.org/2012/474">On the Semantic Security of Functional Encryption Schemes</a>
-    <span class="pub__venue">International Conference on Practice and Theory of Public-Key Cryptography, PKC 2013</span>
+    <span class="pub__venue">Practice and Theory of Public-Key Cryptography, PKC 2013</span>
   </li>
   <li class="pub">
     <span class="pub__authors">Joël Alwen, Manuel Barbosa, Pooya Farshim, Rosario Gennaro, S. Dov Gordon, Stefano Tessaro, and David A. Wilson</span>
     <a class="pub__title" href="http://link.springer.com/chapter/10.1007/978-3-642-45239-0_5">On the Relationship between Functional Encryption, Obfuscation, and Fully Homomorphic Encryption</a>
-    <span class="pub__venue">IMA International Conference on Cryptography and Coding, IMACC 2013</span>
+    <span class="pub__venue">IMA Conference on Cryptography and Coding, IMACC 2013</span>
   </li>
   <li class="pub">
     <span class="pub__authors">Manuel Barbosa and Pooya Farshim</span>
@@ -231,12 +231,12 @@ author_profile: true
   <li class="pub">
     <span class="pub__authors">Manuel Barbosa and Pooya Farshim</span>
     <a class="pub__title" href="{{ '/files/ts.pdf' | relative_url }}">Security Analysis of Standard Authentication and Key Agreement Protocols Utilising Timestamps</a>
-    <span class="pub__venue">International Conference on Cryptology in Africa, AFRICACRYPT 2009</span>
+    <span class="pub__venue">Cryptology in Africa, AFRICACRYPT 2009</span>
   </li>
   <li class="pub">
     <span class="pub__authors">Pooya Farshim and Bogdan Warinschi</span>
     <a class="pub__title" href="{{ '/files/newcl.pdf' | relative_url }}">Certified Encryption Revisited</a>
-    <span class="pub__venue">International Conference on Cryptology in Africa, AFRICACRYPT 2009</span>
+    <span class="pub__venue">Cryptology in Africa, AFRICACRYPT 2009</span>
   </li>
   <li class="pub">
     <span class="pub__authors">Manuel Barbosa and Pooya Farshim</span>
@@ -251,17 +251,17 @@ author_profile: true
   <li class="pub">
     <span class="pub__authors">Manuel Barbosa and Pooya Farshim</span>
     <a class="pub__title" href="{{ '/files/reuse.pdf' | relative_url }}">Randomness Reuse: Improvements and Extensions</a>
-    <span class="pub__venue">IMA International Conference on Cryptography and Coding, IMACC 2007</span>
+    <span class="pub__venue">IMA Conference on Cryptography and Coding, IMACC 2007</span>
   </li>
   <li class="pub">
     <span class="pub__authors">Manuel Barbosa and Pooya Farshim</span>
     <a class="pub__title" href="http://eprint.iacr.org/2006/450">Secure Cryptographic Workflow in the Standard Model</a>
-    <span class="pub__venue">International Conference on Cryptology in India, INDOCRYPT 2006</span>
+    <span class="pub__venue">Cryptology in India, INDOCRYPT 2006</span>
   </li>
   <li class="pub">
     <span class="pub__authors">Manuel Barbosa and Pooya Farshim</span>
     <a class="pub__title" href="http://eprint.iacr.org/2005/217">Efficient Identity-Based Key Encapsulation to Multiple Parties</a>
-    <span class="pub__venue">IMA International Conference on Cryptography and Coding, IMACC 2005</span>
+    <span class="pub__venue">IMA Conference on Cryptography and Coding, IMACC 2005</span>
   </li>
 </ul>
 
