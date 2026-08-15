@@ -52,6 +52,11 @@ author_profile: true
     <span class="pub__venue">Theory and Application of Cryptology and Information Security, ASIACRYPT 2026</span>
   </li>
   <li class="pub">
+    <span class="pub__authors">Charles Dodd, Pooya Farshim, Siamak F. Shahandashti, and Karl Southern</span>
+    <a class="pub__title" href="https://eprint.iacr.org/2026/018">Multi-Instance Unrecoverability of iMHF-Based Password Hashing</a>
+    <span class="pub__venue">European Symposium on Research in Computer Security, ESORICS 2026</span>
+  </li>
+  <li class="pub">
     <span class="pub__authors">Raghav Bhaskar, Pooya Farshim, Matthias Fitzi, and Aggelos Kiayias</span>
     <a class="pub__title" href="https://eprint.iacr.org/2026/1521">Beyond Blockchain Ballots: UC-Secure Layer-2 Voting and Governance</a>
     <span class="pub__venue">IEEE Computer Security Foundations Symposium, CSF 2026</span>
@@ -308,6 +313,7 @@ author_profile: true
   <a href="http://www.geoffroycouteau.fr/">Geoffroy Couteau</a>,
   <a href="http://www.isg.rhul.ac.uk/~psai074/">Jean Paul Degabriele</a>,
   Alexander W. Dent,
+  Charles Dodd,
   <a href="https://cs.nyu.edu/~dodis/">Yevgeniy Dodis</a>,
   <a href="http://www-calfor.lip6.fr/~jcf/">Jean-Charles Faugère</a>,
   Denis Firsov,
@@ -345,8 +351,9 @@ author_profile: true
   <a href="http://lizquaglia.wordpress.com/">Elizabeth A. Quaglia</a>,
   <a href="https://www.di.ens.fr/RazvanRosie.html.en">Răzvan Roşie</a>,
   <a href="http://yannickseurin.free.fr/">Yannick Seurin</a>,
+  <a href="https://www-users.york.ac.uk/~sfs521/">Siamak F. Shahandashti</a>,
   <a href="http://www.cs.bris.ac.uk/~nigel/">Nigel P. Smart</a> (2),
-  Karl Southern,
+  Karl Southern (2),
   <a href="http://www.cs.bris.ac.uk/~stam/">Martijn Stam</a>,
   <a href="https://akiratk0355.github.io/">Akira Takahashi</a>,
   <a href="http://people.csail.mit.edu/tessaro/">Stefano Tessaro</a> (3),
