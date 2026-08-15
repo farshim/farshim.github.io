@@ -9,7 +9,7 @@ redirect_from:
 ---
 
 <p class="lede">
-  You can reach me on gmail, durham.ac.uk, and iohk.io using the id
+  You can reach me at gmail.com, durham.ac.uk, and iohk.io using the ID
   <code>fst.lst</code>.
 </p>
 

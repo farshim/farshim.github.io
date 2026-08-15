@@ -10,19 +10,19 @@ author_profile: true
     My research is focused on the foundational security and practical
     implementation of cryptographic protocols within blockchain technologies. I
     design and formally analyse composable protocols for decentralized systems,
-    encompassing scaling solutions like ZK/optimistic <em>rollups</em>,
-    cross-chain <em>interoperability solutions</em>, as well as mechanisms
-    for on-chain governance and <em>voting</em>.
+    from scaling solutions such as ZK and optimistic <em>rollups</em>, through
+    cross-chain <em>interoperability</em>, to mechanisms for on-chain
+    governance and <em>voting</em>.
   </p>
 
   <p>
-    A central drive of my work involves the automated verification of protocols
-    and security proofs using formal methods tools, such as
+    A central thread of my work is the automated verification of protocols
+    and security proofs using formal-methods tools such as
     <em>model checking</em>.
   </p>
 
   <p>
-    Simultaneously, my interests cover <em>core cryptographic primitives</em>
+    My interests also cover <em>core cryptographic primitives</em>
     (e.g., memory-hard functions, authenticated encryption, and block ciphers) and
     cutting-edge functionalities like homomorphic and functional encryption.
   </p>
@@ -170,7 +170,7 @@ author_profile: true
   </li>
   <li class="pub">
     <span class="pub__authors">Pooya Farshim and Gordon Procter</span>
-    <a class="pub__title" href="http://eprint.iacr.org/2014/953">The Related-Key Security of Iterated Even-Mansour Ciphers</a>
+    <a class="pub__title" href="http://eprint.iacr.org/2014/953">The Related-Key Security of Iterated Even&ndash;Mansour Ciphers</a>
     <span class="pub__venue">Fast Software Encryption, FSE 2015</span>
   </li>
   <li class="pub">

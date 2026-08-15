@@ -60,7 +60,7 @@ kramdown:
 sass:
   sass_dir  : _sass
   style     : compressed
-  sourcemap : never   # otherwise a 36KB .map ships alongside an 12KB stylesheet
+  sourcemap : never   # otherwise a 36KB .map ships alongside a 12KB stylesheet
 
 
 # ==============================================================================
